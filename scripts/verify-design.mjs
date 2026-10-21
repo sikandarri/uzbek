@@ -1,0 +1,24 @@
+/** Static source check for the typography and contained hero layout. No npm packages required. */
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import assert from 'node:assert/strict';
+const root = process.cwd();
+const source = readFileSync(join(root, 'frontend/src/pages/home.tsx'), 'utf8');
+const styles = readFileSync(join(root, 'frontend/src/styles.css'), 'utf8');
+const tailwind = readFileSync(join(root, 'frontend/tailwind.config.js'), 'utf8');
+const layout = readFileSync(join(root, 'frontend/src/components/layout.tsx'), 'utf8');
+const app = readFileSync(join(root, 'frontend/src/App.tsx'), 'utf8');
+assert.match(styles, /font-family:'Manrope'/, 'Premium readable Manrope headings must be used');
+assert.match(styles, /font-family: 'DM Sans'/, 'DM Sans must be the default body face');
+assert.doesNotMatch(styles, /Fraunces/, 'Large decorative serif should no longer appear');
+assert.match(tailwind, /DM Sans/, 'Tailwind font utilities must match the global font stack');
+assert.match(source, /hero-title/, 'Hero needs a specific controlled title scale');
+assert.match(source, /hero-preview-inner/, 'Lesson preview needs a contained surface');
+assert.match(source, /lg:grid-cols-\[minmax\(0,1fr\)_minmax\(0,\.90fr\)\]/, 'Use minmax grid columns to prevent overflow');
+assert.doesNotMatch(source, /className="absolute/, 'Hero cards must not be absolutely positioned');
+assert.doesNotMatch(source, /float-card/, 'Hero must not use overlay float cards');
+assert.match(source, /to="\/essentials"/, 'Keep essentials CTA');
+assert.match(source, /to="\/courses"/, 'Keep courses CTA');
+assert.match(layout, /<Outlet/, 'Keep route outlet intact');
+assert.match(app, /Home/, 'Keep homepage routed');
+console.log('PASS: global readable typography, contained hero, responsive grid and unchanged navigation routes');

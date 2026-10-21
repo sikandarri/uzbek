@@ -1,0 +1,54 @@
+{
+  "name": "noldan-ravon",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "engines": {
+    "node": ">=22.12.0 <25"
+  },
+  "scripts": {
+    "dev": "concurrently --kill-others-on-fail -n api,web -c cyan,green \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm ci --include=dev && npm run db:generate && npm run build:app && npm run verify:build",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "start": "npm run start -w backend",
+    "db:generate": "npm run db:generate -w backend",
+    "db:validate": "npm run db:validate -w backend",
+    "db:seed": "npm run db:seed -w backend",
+    "db:seed:demo": "npm run db:seed:demo -w backend",
+    "test:integration": "npm run test:integration -w backend",
+    "check": "npm run db:validate && npm run typecheck && npm test && npm run build",
+    "format": "prettier --write .",
+    "build:hostinger": "npm run build",
+    "verify:build": "node scripts/verify-build.mjs",
+    "build:app": "npm run build -w shared && npm run build -w frontend && npm run build -w backend",
+    "db:sync": "npm run db:sync -w backend",
+    "db:status": "npm run db:status -w backend",
+    "db:repair-courses": "npm run db:seed && npm run db:status",
+    "courses:verify": "node scripts/check-bundled-data.mjs",
+    "premium:verify": "node scripts/verify-premium.mjs",
+    "design:verify": "node scripts/verify-design.mjs",
+    "api:check": "node scripts/check-local-api.mjs",
+    "essentials:verify": "node scripts/check-everyday-content.mjs",
+    "calendar:verify": "node --experimental-strip-types scripts/verify-calendar-quizzes.mjs",
+    "ielts:verify": "node scripts/check-ielts-depth.mjs",
+    "speaking:verify": "node scripts/check-speaking-exams.mjs",
+    "exams:verify": "node scripts/check-speaking-exams.mjs",
+    "cefr:verify": "node scripts/check-cefr-depth.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "concurrently": "^9.2.1",
+    "prettier": "^3.9.10",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "overrides": {
+    "deepmerge-ts": "8.0.2",
+    "effect": "^3.20.0"
+  }
+}

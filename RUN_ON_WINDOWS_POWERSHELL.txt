@@ -1,0 +1,22 @@
+NOLDAN RAVON | UZBEKISTAN CURRICULUM 2026-10-20
+
+Before running:
+- Copy backend/.env from your working project.
+- Set COURSE_CATALOG_SOURCE=bundled (no MongoDB needed for public lessons).
+- Node.js 22 LTS recommended.
+
+Windows PowerShell / Git Bash (project root):
+ npm ci --include=dev
+ npm run db:generate
+ npm run courses:verify
+ npm run dev
+
+Open http://localhost:3001/api/v1/health/catalog
+Expected: source bundled, 5 tracks, 14 variants, 340 lessons.
+Open http://localhost:5173/courses
+
+To test sign-out: Sign in, open /app/dashboard, click Chiqish / Sign out.
+Expected: Home page /. When MongoDB is unavailable, browser cookie is cleared
+and a warning appears explaining that server-side revocation was not confirmed.
+
+Full audits: README.md and UZBEKISTAN_CURRICULUM_AUDIT.md

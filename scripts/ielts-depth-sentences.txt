@@ -1,0 +1,287 @@
+# key | English sentence | Uzbek translation
+[academic:0]
+I completed a baseline assessment before choosing my weekly study targets. | Haftalik maqsadlarimni tanlashdan oldin boshlang‘ich baholashdan o‘tdim.
+The results showed that my listening accuracy was lower than my reading accuracy. | Natijalarim tinglashdagi aniqligim o‘qishdagidan past ekanini ko‘rsatdi.
+I recorded each mistake in a notebook instead of simply counting the score. | Men faqat ballni sanash o‘rniga har bir xatoni daftarga yozdim.
+My target band is realistic only if I practise all four language skills. | To‘rtala til ko‘nikmasini mashq qilsamgina maqsad qilgan balimga erisha olaman.
+The first diagnostic identified slow reading as a major weakness. | Birinchi diagnostika sekin o‘qishimni katta kamchilik deb aniqladi.
+I now review incorrect answers and explain why the alternatives were wrong. | Endi noto‘g‘ri javoblarni ko‘rib, boshqa variantlar nega xato ekanini tushuntiraman.
+A clear study log helps me measure improvement from one week to the next. | Aniq o‘quv kundaligi haftadan haftaga rivojlanishimni o‘lchashga yordam beradi.
+My speaking practice includes unfamiliar topics, not just rehearsed introductions. | Gapirish mashqim faqat yodlangan kirishlardan emas, notanish mavzulardan ham iborat.
+After four weeks I will repeat the same type of diagnostic tasks. | To‘rt haftadan so‘ng xuddi shu turdagi diagnostik mashqlarni qayta bajaraman.
+The tutor suggested separate strategies for vocabulary, timing and coherence. | Ustoz lug‘at, vaqt taqsimoti va izchillik uchun alohida usullarni tavsiya qildi.
+I will compare my baseline and final results using the same criteria. | Dastlabki va yakuniy natijalarimni bir xil mezonlar bilan solishtiraman.
+I need a balanced plan that addresses weakness without ignoring my strengths. | Kuchli tomonlarimni unutmasdan kamchiliklarimni tuzatadigan muvozanatli reja kerak.
+[academic:1]
+The caller initially booked Friday but later changed the appointment to Monday. | Qo‘ng‘iroq qilgan kishi avval juma kuniga yozilgan, keyin uchrashuvni dushanbaga ko‘chirdi.
+The lecturer mentioned the old fee before confirming the revised price. | Ma’ruzachi yangi narxni tasdiqlashdan oldin eski to‘lovni aytdi.
+I checked whether the answer required a street name or a building number. | Javob uchun ko‘cha nomimi yoki bino raqamimi kerakligini tekshirdim.
+A plural ending can change whether an answer is accepted. | Ko‘plik qo‘shimchasi javobning to‘g‘ri hisoblanishiga ta’sir qilishi mumkin.
+The speaker spelled her surname because the receptionist had written it incorrectly. | Qabulxona xodimi familiyani noto‘g‘ri yozgani uchun ayol uni harflab aytdi.
+I predicted that the next blank might require a date rather than a place. | Keyingi bo‘sh joyga joy emas, sana kerak bo‘lishi mumkinligini taxmin qildim.
+The recording explained the route change after an unexpected road closure. | Audio kutilmagan yo‘l yopilishidan keyingi yo‘nalish o‘zgarishini tushuntirdi.
+Students discussed two research options before agreeing on one method. | Talabalar bitta usulni tanlashdan oldin ikkita tadqiqot variantini muhokama qilishdi.
+I missed the second figure because I was still writing the first answer. | Birinchi javobni yozayotganim sababli ikkinchi raqamni eshitmay qoldim.
+The map question depended on the words opposite and beyond. | Xarita savolida opposite va beyond so‘zlarini tushunish muhim edi.
+I checked the exact word limit before entering the answer. | Javobni yozishdan oldin aniq so‘z chegarasini tekshirdim.
+The correct answer appeared after a correction, not in the speaker’s first sentence. | To‘g‘ri javob so‘zlovchining birinchi gapida emas, tuzatishidan keyin aytildi.
+[academic:2]
+The author presents a claim before describing the supporting experiment. | Muallif dalillovchi tajribani tasvirlashdan oldin asosiy fikrni ilgari suradi.
+I matched the heading to the main idea of the whole paragraph. | Sarlavhani xatboshining umumiy asosiy fikriga mosladim.
+A statement can be not given even when it sounds scientifically plausible. | Fikr ilmiy jihatdan ishonarli bo‘lsa ham matnda aytilmagan bo‘lishi mumkin.
+I found the evidence in paragraph four, not in the introduction. | Dalilni kirishda emas, to‘rtinchi xatboshida topdim.
+The pronoun they referred to the researchers rather than the participants. | They olmoshi ishtirokchilarga emas, tadqiqotchilarga ishora qilgan.
+This sentence contrasts a previous theory with a newer explanation. | Ushbu gap avvalgi nazariyani yangi izoh bilan qarama-qarshi qo‘yadi.
+The question paraphrased the phrase limited resources as restricted supplies. | Savolda limited resources iborasi restricted supplies deb qayta ifodalangan.
+I scanned the article for dates, then read the surrounding lines carefully. | Sanalarni izlab matnni ko‘zdan kechirdim, keyin atrofdagi satrlarni diqqat bilan o‘qidim.
+The passage gives no information about how the survey respondents were selected. | Matnda so‘rov qatnashchilari qanday tanlangani haqida ma’lumot yo‘q.
+A conclusion must follow from the text rather than my personal knowledge. | Xulosa shaxsiy bilimimdan emas, matndan kelib chiqishi kerak.
+The final section questions the reliability of the original evidence. | Oxirgi bo‘lim dastlabki dalilning ishonchliligini shubha ostiga oladi.
+I reviewed every false answer by locating the words that contradicted it. | Har bir noto‘g‘ri javobni unga zid keluvchi so‘zlarni topib qayta tekshirdim.
+[academic:3]
+The proportion of students choosing science rose from twenty to thirty percent. | Tabiiy fanlarni tanlagan talabalar ulushi yigirmadan o'ttiz foizgacha oshdi.
+The highest value was recorded at the end of the reporting period. | Eng yuqori ko‘rsatkich hisobot davrining oxirida qayd etilgan.
+Online enrolment increased sharply while classroom attendance remained stable. | Onlayn ro‘yxatdan o‘tish keskin oshdi, sinfdagi qatnashuv esa o‘zgarmadi.
+The smallest category accounted for less than one tenth of the total. | Eng kichik toifa umumiy miqdorning o‘ndan biridan kamini tashkil etdi.
+I wrote an overview that described the two most important trends. | Ikki eng muhim tendensiyani ifodalagan umumiy xulosa yozdim.
+The figures fluctuated slightly before reaching a new peak. | Ko‘rsatkichlar yangi cho‘qqiga yetguncha biroz tebrandi.
+The increase was five percentage points, not five percent of the original value. | O‘sish dastlabki qiymatning besh foizi emas, besh foiz punktini tashkil etdi.
+A comparison should name both groups and the relevant time period. | Taqqoslashda ikkala guruh hamda tegishli vaqt davri ko‘rsatilishi kerak.
+I avoided guessing the reasons for changes that the chart did not explain. | Diagramma tushuntirmagan o‘zgarishlar sababini taxmin qilishdan saqlandim.
+The number of commuters doubled between the first and last years. | Yo‘lovchilar soni birinchi va oxirgi yil oralig‘ida ikki baravar oshdi.
+The table shows differences in spending across three age groups. | Jadval uch yosh guruhining xarajatlaridagi farqlarni ko‘rsatadi.
+I checked whether each percentage referred to people, households or purchases. | Har bir foiz odamlarga, uy xo‘jaliklariga yoki xaridlarga tegishliligini tekshirdim.
+[academic:4]
+The essay argues that better public transport can reduce urban congestion. | Inshoda yaxshi jamoat transporti shahardagi tirbandlikni kamaytirishi aytiladi.
+A strong introduction states a clear position without listing every example. | Kuchli kirish barcha misollarni sanamasdan aniq pozitsiyani bildiradi.
+The first body paragraph examines the environmental advantages of the proposal. | Birinchi asosiy xatboshi taklifning ekologik afzalliklarini ko‘rib chiqadi.
+I supported my claim with a practical example from city planning. | Fikrimni shahar rejalashtirishga oid amaliy misol bilan asosladim.
+Critics argue that the policy could place extra costs on small businesses. | Tanqidchilar bu siyosat kichik korxonalarga qo‘shimcha xarajat yuklashini aytishadi.
+My conclusion summarises the argument without introducing a new topic. | Xulosam yangi mavzuni kiritmasdan dalillarni umumlashtiradi.
+The problem has economic consequences as well as social effects. | Muammoning ijtimoiy ta’sirlari bilan birga iqtisodiy oqibatlari ham bor.
+A balanced paragraph acknowledges the objection before answering it. | Muvozanatli xatboshi e’tirozni rad etishdan oldin uni tan oladi.
+The solution is practical only if local authorities can fund it. | Mahalliy hokimiyat mablag‘ ajrata olsagina yechim amaliy bo‘ladi.
+I used precise examples instead of broad claims about modern society. | Zamonaviy jamiyat haqidagi umumiy da’volar o‘rniga aniq misollar keltirdim.
+My position remains consistent from the thesis to the final sentence. | Pozitsiyam tezisdan oxirgi gapgacha bir xil bo‘lib qoladi.
+The paragraph explains why a short-term improvement may create a long-term drawback. | Xatboshi qisqa muddatli yaxshilanish nega uzoq muddatli kamchilik tug‘dirishi mumkinligini tushuntiradi.
+[academic:5]
+I prefer studying in the morning because I can concentrate more easily. | Ertalab o‘qishni afzal ko‘raman, chunki diqqatimni osonroq jamlayman.
+Last summer I visited a historical city that changed my view of travel. | O‘tgan yozda sayohat haqidagi qarashimni o‘zgartirgan tarixiy shaharga bordim.
+The experience taught me how to plan under unexpected pressure. | Bu tajriba kutilmagan bosim ostida rejalashni o‘rgatdi.
+I would choose that course again because the teacher encouraged discussion. | O‘qituvchi munozarani rag‘batlantirgani uchun o‘sha kursni yana tanlardim.
+A useful example is the community library near my childhood home. | Bolaligimdagi uyimiz yaqinidagi jamoat kutubxonasi bunga yaxshi misol.
+In my opinion, flexible working hours benefit families with young children. | Fikrimcha, moslashuvchan ish vaqti yosh bolali oilalarga foyda keltiradi.
+One reason for this change is the growing availability of online services. | Bu o‘zgarishning sabablaridan biri onlayn xizmatlar ko‘payayotganidir.
+The biggest challenge was explaining my idea without using a memorised script. | Eng katta qiyinchilik fikrimni yodlangan matnsiz tushuntirish edi.
+If the same situation happened again, I would ask for guidance earlier. | Xuddi shu vaziyat takrorlansa, avvalroq maslahat so‘rardim.
+The long-term effect could be a stronger connection between local communities. | Uzoq muddatli natija mahallalar o‘rtasida mustahkamroq aloqa bo‘lishi mumkin.
+I corrected my tense and continued speaking instead of stopping completely. | Zamondagi xatomni tuzatib, butunlay to‘xtash o‘rniga gapirishda davom etdim.
+My answer contains a personal detail, a reason and an illustrative example. | Javobim shaxsiy tafsilot, sabab va tushunarli misolni o‘z ichiga oladi.
+[academic:6]
+I divided the practice session into sections with separate time limits. | Mashqni alohida vaqt cheklovlari bo‘lgan bo‘limlarga ajratdim.
+A difficult reading question should not consume the time needed for the final passage. | Qiyin o‘qish savoli oxirgi matnga kerakli vaqtni egallab olmasligi kerak.
+I marked uncertain answers and returned to them when time remained. | Noaniq javoblarni belgilab, vaqt qolganida ularga qaytdim.
+The essay needed more planning time than I had originally allowed. | Inshoga avval rejalaganimdan ko‘proq tayyorgarlik vaqti kerak bo‘ldi.
+After the timed drill I identified which mistakes came from rushing. | Vaqtli mashqdan so‘ng qaysi xatolar shoshilishdan kelib chiqqanini aniqladim.
+The final check revealed two spelling mistakes in otherwise correct answers. | Yakuniy tekshiruv boshqa jihatdan to‘g‘ri javoblardagi ikkita imlo xatosini ko‘rsatdi.
+I practised under realistic conditions but did not treat it as a full official mock. | Haqiqiyga yaqin sharoitda mashq qildim, ammo buni to‘liq rasmiy sinov deb hisoblamadim.
+Short breaks between study sessions helped me maintain concentration. | Mashg‘ulotlar orasidagi qisqa tanaffuslar diqqatni saqlashimga yordam berdi.
+I should answer every question even when I need to make an educated guess. | Asosli taxmin qilishim kerak bo‘lsa ham barcha savollarga javob berishim lozim.
+The review log showed that vocabulary was not my main weakness. | Tahlil daftarim lug‘at eng katta kamchiligim emasligini ko‘rsatdi.
+I updated next week’s plan using evidence from the timed results. | Keyingi haftaning rejasini vaqtli mashq natijalariga tayangan holda yangiladim.
+Accurate answers matter more than simply finishing early. | Erta tugatishdan ko‘ra to‘g‘ri javoblar muhimroq.
+[academic:7]
+My incorrect answers showed a repeated problem with negative wording. | Noto‘g‘ri javoblarim inkor ifodalari bilan takroriy muammo borligini ko‘rsatdi.
+I rewrote each difficult sentence in simpler English without changing its meaning. | Har bir qiyin gapni ma’nosini o‘zgartirmasdan sodda inglizchada qayta yozdim.
+The feedback revealed that my examples did not always support my opinion. | Fikr-mulohaza misollarim har doim ham qarashimni asoslamasligini ko‘rsatdi.
+Instead of learning unrelated phrases, I practised vocabulary from my weak topics. | Aloqasiz iboralarni yodlash o‘rniga zaif mavzularim lug‘atini mashq qildim.
+I checked whether the paraphrase preserved the speaker’s original intention. | Qayta ifoda so‘zlovchining asl maqsadini saqlaganini tekshirdim.
+My second answer was clearer because it used one specific example. | Ikkinchi javobim aniq misol ishlatgani sababli ravshanroq bo‘ldi.
+The correction note explains both the error and the rule behind the improvement. | Tuzatish qaydida xato ham, yaxshilanishga sabab bo‘lgan qoida ham tushuntirilgan.
+I compared my first recording with a later response on the same skill. | Dastlabki audioyozuvimni o‘sha ko‘nikmadagi keyingi javob bilan solishtirdim.
+This week I will focus on accuracy before increasing my answering speed. | Bu hafta tezlikni oshirishdan oldin aniqlikka e’tibor beraman.
+Some mistakes came from misunderstanding the task rather than weak grammar. | Ayrim xatolar zaif grammatikadan emas, topshiriqni noto‘g‘ri tushunishdan kelgan.
+The checklist helped me notice missing points before submitting the response. | Nazorat ro‘yxati javobni topshirishdan oldin tushib qolgan bandlarni ko‘rishga yordam berdi.
+I will review the same error pattern after three more practice sessions. | Yana uch mashg‘ulotdan so‘ng ayni xatolarni qayta tekshiraman.
+[academic:8]
+The pie chart shows how household spending is divided among six categories. | Doiraviy diagramma oilaviy xarajatlar olti toifaga qanday bo‘linganini ko‘rsatadi.
+Food accounts for the largest share, whereas transport forms a smaller proportion. | Oziq-ovqat eng katta ulushni, transport esa kichikroq ulushni tashkil etadi.
+Two groups recorded almost equal percentages in the survey. | So‘rovdagi ikkita guruh deyarli teng foiz ko‘rsatgan.
+The difference between these categories was approximately eight percentage points. | Bu toifalar o‘rtasidagi farq taxminan sakkiz foiz punktini tashkil etdi.
+I grouped related values instead of describing every number separately. | Har bir sonni alohida bayon qilish o‘rniga yaqin qiymatlarni guruhladim.
+The overview highlights the most dominant and the least common choices. | Umumiy xulosa eng ko‘p va eng kam uchraydigan tanlovlarni ajratib ko‘rsatadi.
+The table reveals a substantial gap between urban and rural respondents. | Jadval shahar va qishloq qatnashchilari orasidagi sezilarli farqni ochib beradi.
+The smallest segment represents only a fraction of the overall total. | Eng kichik bo‘lak umumiy miqdorning juda oz qismini tashkil etadi.
+I used the chart labels to avoid mixing categories with measurements. | Toifalarni o‘lchov birliklari bilan chalkashtirmaslik uchun grafikdagi yorliqlardan foydalandim.
+A comparison sentence must identify what is being compared. | Taqqoslovchi gap nimaning nimaga qiyoslanayotganini aniq ko‘rsatishi kerak.
+The combined share of the two leading categories exceeds half of the total. | Yetakchi ikki toifaning birgalikdagi ulushi jami miqdorning yarmidan oshadi.
+I avoided claiming that the chart explained why people made these choices. | Diagramma odamlar nega bunday tanlov qilganini tushuntiradi deb da’vo qilmadim.
+[academic:9]
+The process begins when used plastic bottles are collected from households. | Jarayon ishlatilgan plastik idishlar xonadonlardan yig‘ilganda boshlanadi.
+First, workers separate recyclable materials from unsuitable waste. | Dastlab ishchilar qayta ishlanadigan materiallarni yaroqsiz chiqindidan ajratadilar.
+The bottles are then crushed into smaller pieces by a machine. | So‘ng idishlar maxsus uskuna yordamida mayda bo‘laklarga eziladi.
+After washing, the material passes through a controlled heating chamber. | Yuvilgach, material harorati nazorat qilinadigan isitish kamerasidan o‘tadi.
+The softened plastic is shaped into uniform pellets for further processing. | Yumshatilgan plastik keyingi qayta ishlash uchun bir xil granulalarga shakllantiriladi.
+Finally, the product is packaged before being sent to manufacturers. | Oxirida mahsulot ishlab chiqaruvchilarga yuborilishidan oldin qadoqlanadi.
+The diagram illustrates a linear process with seven main stages. | Sxema yetti asosiy bosqichli chiziqli jarayonni ko‘rsatadi.
+A cycle has no single final stage because the sequence repeats. | Takroriy jarayonning bitta yakuniy bosqichi bo‘lmaydi, chunki ketma-ketlik qaytariladi.
+The description should use present simple and passive forms where appropriate. | Tavsifda kerakli o‘rinlarda hozirgi oddiy zamon va majhul nisbat ishlatilishi kerak.
+I explained the order of operations without inventing extra machinery. | Qo‘shimcha uskunalarni o‘ylab topmasdan ishlar tartibini tushuntirdim.
+Arrows indicate how each intermediate product moves to the next stage. | Strelkalar har bir oraliq mahsulot keyingi bosqichga qanday o‘tishini bildiradi.
+Temperature is mentioned only where it is shown in the diagram. | Harorat faqat sxemada ko‘rsatilgan joyda tilga olinadi.
+[academic:10]
+The lecturer introduced the research question before outlining the method. | Ma’ruzachi usulni tushuntirishdan oldin tadqiqot savolini tanishtirdi.
+A student asked whether the sample included participants from rural areas. | Talaba tanlanmaga qishloq hududlari qatnashchilari kiritilganini so‘radi.
+The supervisor recommended changing the interview schedule rather than the topic. | Ilmiy rahbar mavzuni emas, suhbat jadvalini o‘zgartirishni tavsiya qildi.
+The initial hypothesis was revised after the first round of fieldwork. | Dastlabki faraz dala tadqiqotining birinchi bosqichidan keyin qayta ko‘rib chiqildi.
+One speaker questioned whether the findings could be generalised. | So‘zlovchilardan biri natijalarni umumlashtirish mumkinligiga shubha bildirdi.
+They agreed to check the citation details before submitting the draft. | Ular qoralamani topshirishdan oldin manba ma’lumotlarini tekshirishga kelishishdi.
+The discussion distinguished statistical association from direct causation. | Munozarada statistik bog‘liqlik to‘g‘ridan-to‘g‘ri sababdan farq qilishi ta’kidlandi.
+The deadline was brought forward because the review committee met earlier. | Ko‘rib chiqish komissiyasi ertaroq yig‘ilgani uchun topshirish muddati oldinga surildi.
+The recording contains a correction that changes the answer to question six. | Audioyozuvda oltinchi savolning javobini o‘zgartiradigan tuzatish bor.
+I noted the speaker’s hesitation before interpreting the final decision. | Yakuniy qarorni tushunishdan oldin so‘zlovchining ikkilanib qolganini qayd etdim.
+The method may have limitations because the participants volunteered themselves. | Ishtirokchilar o‘z xohishi bilan kelgani uchun usulda cheklovlar bo‘lishi mumkin.
+The closing summary confirmed the next meeting and the data responsibilities. | Yakuniy xulosada keyingi uchrashuv va ma’lumotlar bo‘yicha vazifalar tasdiqlandi.
+[general-training:0]
+I want to improve the English I use at work and in everyday services. | Men ishda va kundalik xizmatlarda ishlatadigan ingliz tilimni yaxshilamoqchiman.
+The diagnostic showed that I understand notices better than spoken instructions. | Diagnostika e’lonlarni og‘zaki ko‘rsatmalardan yaxshiroq tushunishimni ko‘rsatdi.
+I can write a short informal message but need practice with formal letters. | Qisqa norasmiy xabar yoza olaman, ammo rasmiy xatlarni mashq qilishim kerak.
+My goal is to handle appointments without asking someone else to translate. | Maqsadim uchrashuvlarni boshqa birovdan tarjima so‘ramasdan hal qilishdir.
+The reading task included a timetable and a workplace safety notice. | O‘qish topshirig‘ida jadval va ish joyi xavfsizligi e’loni bor edi.
+I reviewed the words that appeared in the rental agreement. | Ijara shartnomasida uchragan so‘zlarni takrorladim.
+Accurate details matter when completing a job application form. | Ishga kirish arizasini to‘ldirishda aniq ma’lumotlar muhim.
+After the first week I could describe my daily routine more confidently. | Birinchi haftadan so‘ng kun tartibimni ishonchliroq tasvirlay oldim.
+The course includes both familiar social situations and workplace communication. | Kurs tanish ijtimoiy vaziyatlarni ham, ishdagi muloqotni ham qamrab oladi.
+I keep a list of practical mistakes that cause misunderstandings. | Tushunmovchilik keltiradigan amaliy xatolarim ro‘yxatini yuritaman.
+My target is steady progress rather than memorising long answers. | Maqsadim uzun javoblarni yodlash emas, izchil rivojlanishdir.
+I will repeat this baseline task after four focused study weeks. | To‘rt haftalik maqsadli o‘qishdan so‘ng ushbu dastlabki mashqni takrorlayman.
+[general-training:1]
+The receptionist asked for a postcode before confirming my registration. | Qabulxona xodimi ro‘yxatni tasdiqlashdan oldin pochta indeksini so‘radi.
+The bus now leaves from the opposite side of the station. | Endi avtobus bekatning qarama-qarshi tomonidagi joydan jo‘naydi.
+My viewing appointment was moved because the landlord was unavailable. | Uy egasi bo‘sh bo‘lmagani uchun kvartirani ko‘rish uchrashuvim ko‘chirildi.
+The caller corrected the reference number after repeating it slowly. | Qo‘ng‘iroq qilgan kishi raqamni sekin takrorlagach murojaat raqamini tuzatdi.
+The price includes heating but does not cover electricity charges. | Narxga isitish kiradi, ammo elektr to‘lovi kirmaydi.
+I wrote down the emergency contact in case the office was closed. | Idora yopiq bo‘lsa kerak bo‘ladigan favqulodda aloqa raqamini yozib oldim.
+The next available booking is on Thursday afternoon, not Wednesday morning. | Keyingi bo‘sh vaqt chorshanba ertalab emas, payshanba tushdan keyin.
+She confirmed the spelling of her name one letter at a time. | U ismining yozilishini harflarni bittalab aytib tasdiqladi.
+The route information changed after the roadworks were announced. | Yo‘l ta’miri e’lon qilingach yo‘nalish haqidagi ma’lumot o‘zgardi.
+I checked whether the refund policy applied to cancelled reservations. | Pulni qaytarish qoidasi bekor qilingan bandlovlarga ham tegishliligini tekshirdim.
+The correct answer was the revised time mentioned near the end. | To‘g‘ri javob oxirga yaqin aytilgan yangilangan vaqt edi.
+I listened for the word except because it changed the instruction. | Ko‘rsatmani o‘zgartirgani uchun except so‘ziga quloq tutdim.
+[general-training:2]
+The library notice states that new members must bring proof of address. | Kutubxona e’lonida yangi a’zolar manzil tasdig‘ini olib kelishi kerakligi aytilgan.
+The job advert gives a closing date for completed applications. | Ish e’lonida to‘ldirilgan arizalar uchun yakuniy sana berilgan.
+The staff rota shows who works the early shift on Saturday. | Xodimlar jadvali shanba kuni ertalabki smenada kim ishlashini ko‘rsatadi.
+The safety notice requires visitors to wear protective equipment. | Xavfsizlik e’loni tashrif buyuruvchilardan himoya jihozini kiyishni talab qiladi.
+I matched each workplace rule to the correct department. | Har bir ish qoidasini tegishli bo‘limga mosladim.
+The contract describes the probation period and holiday entitlement. | Shartnomada sinov muddati va ta’til huquqi bayon qilingan.
+Applicants must meet the eligibility conditions before the interview. | Nomzodlar suhbatdan oldin muvofiqlik shartlariga javob berishlari kerak.
+The training timetable was revised for staff joining next month. | Keyingi oy ish boshlaydigan xodimlar uchun o‘quv jadvali yangilandi.
+The notice gives no information about parking fees for employees. | E’londa xodimlarning avtoturargoh to‘lovi haqida ma’lumot yo‘q.
+The leaflet explains how residents should report a damaged lift. | Varaqada yashovchilar nosoz lift haqida qanday xabar berishi tushuntirilgan.
+I located the exception clause rather than relying on the general rule. | Umumiy qoidaga tayanish o‘rniga istisno bandini topdim.
+The final question required matching three services to their opening hours. | Oxirgi savolda uchta xizmatni ularning ish vaqtiga moslashtirish kerak edi.
+[general-training:3]
+I am writing to request further details about the available evening classes. | Mavjud kechki darslar haqida qo‘shimcha ma’lumot so‘rab yozmoqdaman.
+I recently moved into the building and would like to register for parking. | Yaqinda binoga ko‘chib keldim va avtoturargoh uchun ro‘yxatdan o‘tmoqchiman.
+Could you please confirm whether the service is available on weekends? | Xizmat dam olish kunlari ishlashini tasdiqlab bera olasizmi?
+I would appreciate a written reply by the end of next week. | Kelasi hafta oxirigacha yozma javob bersangiz minnatdor bo‘lardim.
+Please find the requested documents attached to this letter. | So‘ralgan hujjatlar ushbu xatga ilova qilingan.
+I apologise for the inconvenience caused by the earlier misunderstanding. | Avvalgi tushunmovchilik keltirgan noqulaylik uchun uzr so‘rayman.
+I am concerned that the heating has not worked properly for several days. | Isitish bir necha kundan beri to‘g‘ri ishlamayotganidan xavotirdaman.
+I would be grateful if a technician could inspect the system this week. | Shu hafta mutaxassis tizimni tekshirsa minnatdor bo‘lardim.
+The letter should explain the reason for contact before giving extra details. | Xatda qo‘shimcha ma’lumotlardan oldin murojaat sababi tushuntirilishi kerak.
+I checked that all three requested points were covered in separate paragraphs. | So‘ralgan uch bandning hammasi alohida xatboshilarda yoritilganini tekshirdim.
+The closing sentence politely invites the reader to contact me. | Yakuniy jumla o‘quvchini men bilan muloyim tarzda bog‘lanishga undaydi.
+My tone remains formal because I do not know the recipient personally. | Qabul qiluvchini shaxsan tanimaganim uchun ohangim rasmiy bo‘lib qoladi.
+[general-training:4]
+Reliable public transport can help workers reach jobs outside their neighbourhoods. | Ishonchli jamoat transporti ishchilarga mahallasidan tashqaridagi ishga borishda yordam beradi.
+Affordable housing is a major concern for families moving to large cities. | Hamyonbop uy-joy katta shaharlarga ko‘chayotgan oilalar uchun jiddiy masala.
+Some people believe that local councils should invest more in public parks. | Ayrimlar mahalliy kengashlar jamoat bog‘lariga ko‘proq mablag‘ ajratishi kerak deb hisoblaydi.
+However, other residents prefer investment in essential health services. | Biroq boshqa yashovchilar zarur sog‘liqni saqlash xizmatlariga sarmoyani afzal ko‘rishadi.
+A realistic solution must consider both costs and long-term benefits. | Haqiqiy yechim xarajatlarni ham, uzoq muddatli foydalarni ham hisobga olishi kerak.
+I used an example from a local neighbourhood to develop the main argument. | Asosiy fikrni rivojlantirish uchun mahalliy mahalladan misol keltirdim.
+The second paragraph evaluates the drawbacks of the proposed policy. | Ikkinchi xatboshi taklif etilgan siyosatning kamchiliklarini baholaydi.
+The conclusion recommends a balanced approach without repeating the introduction. | Xulosa kirishni takrorlamasdan muvozanatli yondashuvni tavsiya qiladi.
+The writer supports the opinion with evidence rather than personal slogans. | Muallif fikrini shiorlar emas, dalillar bilan qo‘llab-quvvatlaydi.
+Community services can improve quality of life for older residents. | Jamoat xizmatlari keksa yashovchilarning hayot sifatini yaxshilashi mumkin.
+The essay explains why easy access to childcare may increase employment. | Inshoda bolalar parvarishidan oson foydalanish ish bilan bandlikni qanday oshirishi tushuntiriladi.
+I checked every example for a clear connection to the question. | Har bir misolni savolga aniq bog‘langanligini tekshirdim.
+[general-training:5]
+My favourite local market is busy because it serves several nearby districts. | Sevimli mahalliy bozorim yaqin atrofdagi bir nechta tumanga xizmat qilgani uchun gavjum.
+I remember a neighbour who helped our family during a difficult winter. | Qiyin qishda oilamizga yordam bergan qo‘shnimni eslayman.
+We celebrate important family occasions by preparing a meal together. | Oilaviy muhim tadbirlarni birgalikda ovqat tayyorlab nishonlaymiz.
+The experience was memorable because I learned something unexpected. | Kutilmagan narsani o‘rganganim uchun bu tajriba esda qolarli bo‘ldi.
+I prefer walking to work when the weather is pleasant. | Ob-havo yaxshi bo‘lsa ishga piyoda borishni afzal ko‘raman.
+The interviewer asked why that tradition remains important to younger people. | Suhbatdosh bu an’ana yoshlar uchun nega hanuz muhimligini so‘radi.
+One advantage of the neighbourhood is its convenient public transport. | Mahallaning afzalliklaridan biri qulay jamoat transportidir.
+If I could change one thing, I would add a larger public library. | Bir narsani o‘zgartira olsam, kattaroq jamoat kutubxonasi qurar edim.
+My story begins with a journey and ends with a useful lesson. | Hikoyam safardan boshlanib, foydali saboq bilan tugaydi.
+I explained how the event affected my relationship with my relatives. | Voqea qarindoshlarim bilan munosabatimga qanday ta’sir qilganini tushuntirdim.
+Instead of a very short answer, I gave a reason and a concrete example. | Juda qisqa javob o‘rniga sabab va aniq misol keltirdim.
+I considered whether digital communication could replace face-to-face visits. | Raqamli muloqot yuzma-yuz tashriflarning o‘rnini bosa olishini muhokama qildim.
+[general-training:6]
+I spent too long on the first reading text and rushed the final section. | Birinchi o‘qish matniga ko‘p vaqt sarflab, oxirgi bo‘limga shoshildim.
+The timer showed that my letter draft needed a faster planning stage. | Taymer xat qoralamasini tezroq rejalash kerakligini ko‘rsatdi.
+I checked the number of words before submitting the writing practice. | Yozuv mashqini topshirishdan oldin so‘zlar sonini tekshirdim.
+A question with unclear wording should be marked for later review. | Ifodasi noaniq savolni keyin tekshirish uchun belgilash kerak.
+I reviewed the transcript only after completing the listening exercise. | Tinglash mashqini tugatgachgina matnni ko‘rib chiqdim.
+An accurate answer is worth more than an unsupported guess. | To‘g‘ri javob asossiz taxmindan qimmatroq.
+I used the remaining minutes to correct grammar in the final paragraph. | Qolgan daqiqalarda oxirgi xatboshidagi grammatikani tuzatdim.
+The exercise tested timing decisions rather than reproducing a full exam. | Mashq to‘liq imtihonni takrorlamay, vaqt taqsimoti qarorlarini sinadi.
+My notes show exactly where I lost time and how to avoid it next week. | Qaydlarim vaqtni qayerda yo‘qotganimni va keyingi hafta bundan qanday qochishni ko‘rsatadi.
+I answered easier questions first without abandoning the more demanding ones. | Qiyinroq savollardan voz kechmasdan avval osonlariga javob berdim.
+I reserved a few minutes to check names, dates and spelling. | Ismlar, sanalar va imloni tekshirish uchun bir necha daqiqa qoldirdim.
+My second attempt was more accurate because I followed the time plan. | Vaqt rejasiga rioya qilganim uchun ikkinchi urinish aniqroq bo‘ldi.
+[general-training:7]
+I identified that my letter sounded too informal for the recipient. | Xatim qabul qiluvchi uchun juda norasmiy eshitilishini aniqladim.
+The reviewer noted that I had not addressed the second bullet point. | Tekshiruvchi ikkinchi bandni yoritmaganimni qayd etdi.
+I replaced a vague request with a specific date and action. | Noaniq so‘rovni aniq sana va harakat bilan almashtirdim.
+My first paragraph needed a clearer explanation of the problem. | Birinchi xatboshimda muammo ravshanroq tushuntirilishi kerak edi.
+The reading error happened because I ignored an important exception. | O‘qishdagi xato muhim istisnoni e’tiborsiz qoldirganimdan kelib chiqdi.
+I checked my verb tenses while keeping the original meaning. | Asl ma’noni saqlagan holda fe’l zamonlarini tekshirdim.
+This revision removes an unnecessary repetition from the conclusion. | Ushbu tuzatish xulosadagi keraksiz takrorlashni olib tashlaydi.
+I compared the improved response with the original to identify progress. | Rivojlanishni aniqlash uchun yaxshilangan javobni asliga solishtirdim.
+The main weakness was missing details, not a lack of advanced vocabulary. | Asosiy kamchilik murakkab lug‘atning yo‘qligi emas, tafsilotlar tushib qolganidir.
+The rewritten sentence makes the requested action easier to understand. | Qayta yozilgan gap so‘ralgan harakatni tushunishni osonlashtiradi.
+I will revisit the same writing criterion after another practice task. | Yana bir mashqdan keyin o‘sha yozish mezoniga qaytaman.
+Specific feedback helps me improve more than a general score alone. | Aniq fikr-mulohaza menga faqat umumiy balldan ko‘ra ko‘proq yordam beradi.
+[general-training:8]
+Dear Sir or Madam, I am writing to enquire about the available training places. | Hurmatli janob yoki xonim, mavjud o‘quv o‘rinlari haqida so‘rab yozmoqdaman.
+Could you inform me about the registration fees and start dates? | Ro‘yxatdan o‘tish to‘lovlari va boshlanish sanalari haqida ma’lumot bera olasizmi?
+I would also like to know whether evening sessions are offered. | Shuningdek, kechki mashg‘ulotlar bormi, bilmoqchiman.
+Please let me know if proof of employment is required. | Ish joyidan ma’lumotnoma talab qilinsa, iltimos, xabar bering.
+I have attached the relevant form for your consideration. | Ko‘rib chiqishingiz uchun tegishli shaklni ilova qildim.
+I would appreciate a response before the application deadline. | Ariza muddati tugashidan oldin javob bersangiz minnatdor bo‘laman.
+The purpose of the letter should be clear in its first paragraph. | Xatning maqsadi birinchi xatboshida aniq bo‘lishi kerak.
+Each bullet point deserves a complete answer rather than a list of fragments. | Har bir band uzuk-yuluq ro‘yxat emas, to‘liq javob talab qiladi.
+A formal request uses courteous language without becoming unnecessarily long. | Rasmiy so‘rov keraksiz cho‘zilmasdan xushmuomala tilda yoziladi.
+I checked that the recipient could reply using the contact details provided. | Qabul qiluvchi ko‘rsatilgan aloqa ma’lumotlari orqali javob bera olishini tekshirdim.
+The final line thanks the reader for considering the request. | Oxirgi jumlada so‘rovni ko‘rib chiqqani uchun o‘quvchiga minnatdorlik bildiriladi.
+I kept the tone professional because the manager and I have never met. | Menejer bilan hech uchrashmaganimiz uchun ohangni professional saqladim.
+[general-training:9]
+All new staff must attend the safety induction before starting work. | Barcha yangi xodimlar ishni boshlashdan oldin xavfsizlik mashg‘ulotiga qatnashishi kerak.
+The handbook explains the procedure for reporting an accident. | Qo‘llanmada baxtsiz hodisa haqida xabar berish tartibi tushuntirilgan.
+Employees need supervisor approval before working overtime. | Xodimlar qo‘shimcha ishga chiqishdan oldin rahbar ruxsatini olishlari kerak.
+The noticeboard lists the training sessions available this month. | E’lonlar taxtasida shu oygi treninglar ro‘yxati keltirilgan.
+Applicants must provide evidence of previous work experience. | Nomzodlar avvalgi ish tajribasini tasdiqlovchi hujjat berishlari kerak.
+The contract states the length of the initial probation period. | Shartnomada dastlabki sinov muddati davomiyligi ko‘rsatilgan.
+I found the exception under the heading about annual leave. | Istisnoni yillik ta’til haqidagi sarlavha ostidan topdim.
+The final question required understanding who was eligible for the course. | Oxirgi savolda kursga kimlar mos kelishini tushunish kerak edi.
+The shift schedule changed after two employees exchanged their days. | Ikki xodim ish kunlarini almashtirgach smena jadvali o‘zgardi.
+Staff should wear protective gloves in the designated storage area. | Xodimlar belgilangan ombor hududida himoya qo‘lqoplarini kiyishlari kerak.
+I compared the notice with the application form to find the missing detail. | Yetishmayotgan tafsilotni topish uchun e’lonni ariza shakli bilan solishtirdim.
+The text does not say that weekend attendance is compulsory. | Matnda dam olish kunlari qatnashish majburiyligi aytilmagan.
+[general-training:10]
+I am writing to complain about a washing machine delivered last Thursday. | O‘tgan payshanba yetkazilgan kir yuvish mashinasi haqida shikoyat qilib yozmoqdaman.
+The appliance stopped working after only two days of normal use. | Jihoz odatiy foydalanishning atigi ikki kunidan keyin ishlamay qoldi.
+I have attached a copy of the receipt and photographs of the damage. | Kvitansiya nusxasi va shikastlanish suratlarini ilova qildim.
+I would prefer a replacement because the product is still under warranty. | Mahsulot hali kafolatda bo‘lgani uchun almashtirishni afzal ko‘raman.
+Please confirm how long the inspection and repair process will take. | Tekshiruv va ta’mirlash qancha davom etishini tasdiqlab bering.
+The reply should acknowledge the problem before offering a practical solution. | Javob amaliy yechim taklif qilishdan oldin muammoni tan olishi kerak.
+I remained polite while making the requested action very clear. | So‘ralgan harakatni aniq ifodalab, muloyimlikni saqladim.
+The company offered a partial refund instead of the requested replacement. | Kompaniya so‘ralgan almashtirish o‘rniga qisman pul qaytarishni taklif qildi.
+I asked for a written response within a reasonable timeframe. | Oqilona vaqt ichida yozma javob so‘radim.
+The follow-up message summarised our earlier telephone conversation. | Keyingi xabar avvalgi telefon suhbatimizni qisqacha bayon qildi.
+I checked whether the complaint described facts rather than exaggerated accusations. | Shikoyatda bo‘rttirilgan ayblovlar emas, faktlar bayon qilinganini tekshirdim.
+A clear resolution would help both the customer and the service provider. | Aniq yechim mijozga ham, xizmat ko‘rsatuvchiga ham yordam beradi.

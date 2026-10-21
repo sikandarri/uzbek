@@ -1,0 +1,38 @@
+{
+  "name": "@noldan/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/backend/src/index.js",
+    "typecheck": "tsc -p tsconfig.check.json",
+    "test": "vitest run tests/auth.test.ts tests/config.test.ts tests/static.test.ts tests/lessons.test.ts tests/mongo-retry.test.ts tests/bundled-catalog.test.ts",
+    "test:integration": "vitest run tests/mongodb.integration.test.ts",
+    "db:generate": "prisma generate",
+    "db:validate": "prisma validate",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:seed:demo": "tsx prisma/seed-demo.ts",
+    "auth:cleanup": "tsx src/auth/cleanup.ts",
+    "db:sync": "prisma db push",
+    "db:status": "tsx prisma/check-courses.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "6.19.0",
+    "argon2": "0.41.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.9",
+    "@types/express": "^5.0.3",
+    "@types/supertest": "^6.0.3",
+    "prisma": "6.19.0",
+    "supertest": "^7.1.4",
+    "tsx": "^4.20.6"
+  }
+}

@@ -1,0 +1,1058 @@
+// MongoDB Atlas / replica-set schema. UUID strings are stored as MongoDB _id values.
+// Models for later phases do not imply implemented endpoints.
+// Prisma MongoDB requires a replica set for nested writes/transactions.
+// MongoDB does not enforce SQL foreign-key constraints.
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+enum Locale {
+  UZ
+  EN
+}
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+}
+
+enum AuthTokenType {
+  VERIFY_EMAIL
+  RESET_PASSWORD
+}
+
+enum PublicationStatus {
+  DRAFT
+  REVIEW
+  SCHEDULED
+  PUBLISHED
+  COMING_SOON
+  ARCHIVED
+}
+
+enum CefrLevel {
+  A1
+  A2
+  B1
+  B2
+  C1
+}
+
+enum BlockType {
+  OBJECTIVES
+  EXPLANATION
+  VOCABULARY
+  GRAMMAR
+  AUDIO
+  READING
+  QUESTION
+  MICROPHONE
+  REVIEW
+  COMPLETION
+}
+
+enum MediaVisibility {
+  PRIVATE
+  PUBLIC
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICE
+  TRUE_FALSE
+  CLOZE
+  ORDERING
+  SHORT_TEXT
+  WRITING
+  SPEAKING
+}
+
+enum Skill {
+  LISTENING
+  READING
+  WRITING
+  SPEAKING
+  GRAMMAR
+  VOCABULARY
+  PRONUNCIATION
+}
+
+enum AssessmentType {
+  PLACEMENT
+  LESSON
+  MODULE
+  CAPSTONE
+  IELTS
+  MULTILEVEL
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  SUBMITTED
+  GRADED
+  EXPIRED
+}
+
+enum EnrollmentStatus {
+  ACTIVE
+  COMPLETED
+  REVOKED
+}
+
+enum ProgressStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  COMPLETED
+}
+
+enum TutorMode {
+  EXPLAIN
+  GUIDED
+  CONVERSATION
+  ROLE_PLAY
+  IELTS
+  MULTILEVEL
+  PRONUNCIATION
+}
+
+enum MessageRole {
+  USER
+  ASSISTANT
+}
+
+enum PlanInterval {
+  MONTH
+  YEAR
+  ONE_TIME
+}
+
+enum OrderStatus {
+  PENDING
+  PAID
+  CANCELLED
+  EXPIRED
+  REFUNDED
+}
+
+enum PaymentProvider {
+  CLICK
+  PAYME
+}
+
+enum PaymentStatus {
+  PENDING
+  VERIFIED
+  FAILED
+  REFUNDED
+}
+
+enum SubscriptionStatus {
+  PENDING
+  ACTIVE
+  EXPIRED
+  CANCELLED
+}
+
+enum ReleaseStatus {
+  PENDING
+  PUBLISHED
+  FAILED
+  CANCELLED
+}
+
+model User {
+  id                       String              @id @default(uuid()) @map("_id")
+  email                    String              @unique
+  passwordHash             String
+  displayName              String
+  locale                   Locale              @default(UZ)
+  timezone                 String              @default("Asia/Tashkent")
+  status                   UserStatus          @default(ACTIVE)
+  emailVerifiedAt          DateTime?
+  termsAcceptedAt          DateTime
+  termsVersion             String
+  marketingOptIn           Boolean             @default(false)
+  audioStorageConsent      Boolean             @default(false)
+  deletedAt                DateTime?
+  createdAt                DateTime            @default(now())
+  updatedAt                DateTime            @updatedAt
+  session_user             Session[]           @relation("Session_user")
+  userRole_user            UserRole[]          @relation("UserRole_user")
+  authToken_user           AuthToken[]         @relation("AuthToken_user")
+  mediaAsset_owner         MediaAsset[]        @relation("MediaAsset_owner")
+  contentRevision_author   ContentRevision[]   @relation("ContentRevision_author")
+  contentRevision_reviewer ContentRevision[]   @relation("ContentRevision_reviewer")
+  assessmentAttempt_user   AssessmentAttempt[] @relation("AssessmentAttempt_user")
+  enrollment_user          Enrollment[]        @relation("Enrollment_user")
+  lessonProgress_user      LessonProgress[]    @relation("LessonProgress_user")
+  activityProgress_user    ActivityProgress[]  @relation("ActivityProgress_user")
+  activityAttempt_user     ActivityAttempt[]   @relation("ActivityAttempt_user")
+  reviewCard_user          ReviewCard[]        @relation("ReviewCard_user")
+  studyEvent_user          StudyEvent[]        @relation("StudyEvent_user")
+  aiSession_user           AiSession[]         @relation("AiSession_user")
+  aiUsage_user             AiUsage[]           @relation("AiUsage_user")
+  aiQuota_user             AiQuota[]           @relation("AiQuota_user")
+  order_user               Order[]             @relation("Order_user")
+  subscription_user        Subscription[]      @relation("Subscription_user")
+  entitlement_user         Entitlement[]       @relation("Entitlement_user")
+  certificate_user         Certificate[]       @relation("Certificate_user")
+  releaseSchedule_creator  ReleaseSchedule[]   @relation("ReleaseSchedule_creator")
+  auditLog_actor           AuditLog[]          @relation("AuditLog_actor")
+}
+
+model Session {
+  id         String    @id @default(uuid()) @map("_id")
+  tokenHash  String    @unique
+  expiresAt  DateTime
+  lastSeenAt DateTime  @default(now())
+  revokedAt  DateTime?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  userId     String?
+  user       User?     @relation("Session_user", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([expiresAt])
+  @@index([userId])
+}
+
+model Role {
+  id                  String           @id @default(uuid()) @map("_id")
+  name                String           @unique
+  createdAt           DateTime         @default(now())
+  updatedAt           DateTime         @updatedAt
+  userRole_role       UserRole[]       @relation("UserRole_role")
+  rolePermission_role RolePermission[] @relation("RolePermission_role")
+}
+
+model Permission {
+  id                        String           @id @default(uuid()) @map("_id")
+  code                      String           @unique
+  createdAt                 DateTime         @default(now())
+  updatedAt                 DateTime         @updatedAt
+  rolePermission_permission RolePermission[] @relation("RolePermission_permission")
+}
+
+model UserRole {
+  id        String   @id @default(uuid()) @map("_id")
+  createdAt DateTime @default(now())
+  userId    String
+  user      User     @relation("UserRole_user", fields: [userId], references: [id], onDelete: Cascade)
+  roleId    String
+  role      Role     @relation("UserRole_role", fields: [roleId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, roleId])
+  @@index([userId])
+  @@index([roleId])
+}
+
+model RolePermission {
+  id           String     @id @default(uuid()) @map("_id")
+  createdAt    DateTime   @default(now())
+  roleId       String
+  role         Role       @relation("RolePermission_role", fields: [roleId], references: [id], onDelete: Cascade)
+  permissionId String
+  permission   Permission @relation("RolePermission_permission", fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@unique([roleId, permissionId])
+  @@index([roleId])
+  @@index([permissionId])
+}
+
+model AuthToken {
+  id        String        @id @default(uuid()) @map("_id")
+  type      AuthTokenType
+  tokenHash String        @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+  userId    String
+  user      User          @relation("AuthToken_user", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([expiresAt])
+  @@index([userId])
+}
+
+model RateLimit {
+  key       String   @id @map("_id")
+  count     Int      @default(1)
+  expiresAt DateTime
+
+  @@index([expiresAt])
+}
+
+model Track {
+  id           String            @id @default(uuid()) @map("_id")
+  slug         String            @unique
+  titleKey     String
+  position     Int
+  status       PublicationStatus @default(COMING_SOON)
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+  course_track Course[]          @relation("Course_track")
+
+  @@unique([position])
+}
+
+model Course {
+  id                       String              @id @default(uuid()) @map("_id")
+  slug                     String              @unique
+  level                    CefrLevel?
+  variant                  String?
+  status                   PublicationStatus   @default(DRAFT)
+  listed                   Boolean             @default(false)
+  position                 Int
+  version                  Int                 @default(1)
+  publishedAt              DateTime?
+  deletedAt                DateTime?
+  createdAt                DateTime            @default(now())
+  updatedAt                DateTime            @updatedAt
+  trackId                  String
+  track                    Track               @relation("Course_track", fields: [trackId], references: [id], onDelete: NoAction)
+  courseTranslation_course CourseTranslation[] @relation("CourseTranslation_course")
+  module_course            Module[]            @relation("Module_course")
+  assessment_course        Assessment[]        @relation("Assessment_course")
+  enrollment_course        Enrollment[]        @relation("Enrollment_course")
+  aiSession_course         AiSession[]         @relation("AiSession_course")
+  planCourse_course        PlanCourse[]        @relation("PlanCourse_course")
+  entitlement_course       Entitlement[]       @relation("Entitlement_course")
+  certificate_course       Certificate[]       @relation("Certificate_course")
+
+  @@unique([trackId, position])
+  @@index([status, listed])
+  @@index([trackId])
+}
+
+model CourseTranslation {
+  id          String   @id @default(uuid()) @map("_id")
+  locale      Locale
+  name        String
+  description String
+  outcomes    Json
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  courseId    String
+  course      Course   @relation("CourseTranslation_course", fields: [courseId], references: [id], onDelete: Cascade)
+
+  @@unique([courseId, locale])
+  @@index([courseId])
+}
+
+model Module {
+  id                       String              @id @default(uuid()) @map("_id")
+  slug                     String
+  position                 Int
+  status                   PublicationStatus   @default(DRAFT)
+  version                  Int                 @default(1)
+  publishAt                DateTime?
+  deletedAt                DateTime?
+  createdAt                DateTime            @default(now())
+  updatedAt                DateTime            @updatedAt
+  courseId                 String
+  course                   Course              @relation("Module_course", fields: [courseId], references: [id], onDelete: NoAction)
+  prerequisiteId           String?
+  prerequisite             Module?             @relation("Module_prerequisite", fields: [prerequisiteId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  module_prerequisite      Module[]            @relation("Module_prerequisite")
+  moduleTranslation_module ModuleTranslation[] @relation("ModuleTranslation_module")
+  lesson_module            Lesson[]            @relation("Lesson_module")
+  assessment_module        Assessment[]        @relation("Assessment_module")
+
+  @@unique([courseId, position])
+  @@unique([courseId, slug])
+  @@index([courseId])
+  @@index([prerequisiteId])
+}
+
+model ModuleTranslation {
+  id          String   @id @default(uuid()) @map("_id")
+  locale      Locale
+  title       String
+  description String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  moduleId    String
+  module      Module   @relation("ModuleTranslation_module", fields: [moduleId], references: [id], onDelete: Cascade)
+
+  @@unique([moduleId, locale])
+  @@index([moduleId])
+}
+
+model Lesson {
+  id                       String              @id @default(uuid()) @map("_id")
+  slug                     String
+  position                 Int
+  status                   PublicationStatus   @default(DRAFT)
+  estimatedMinutes         Int                 @default(20)
+  required                 Boolean             @default(true)
+  version                  Int                 @default(1)
+  publishAt                DateTime?
+  deletedAt                DateTime?
+  createdAt                DateTime            @default(now())
+  updatedAt                DateTime            @updatedAt
+  moduleId                 String
+  module                   Module              @relation("Lesson_module", fields: [moduleId], references: [id], onDelete: NoAction)
+  prerequisiteId           String?
+  prerequisite             Lesson?             @relation("Lesson_prerequisite", fields: [prerequisiteId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  lesson_prerequisite      Lesson[]            @relation("Lesson_prerequisite")
+  lessonTranslation_lesson LessonTranslation[] @relation("LessonTranslation_lesson")
+  lessonBlock_lesson       LessonBlock[]       @relation("LessonBlock_lesson")
+  lessonProgress_lesson    LessonProgress[]    @relation("LessonProgress_lesson")
+  lessonVocabulary_lesson  LessonVocabulary[]  @relation("LessonVocabulary_lesson")
+  aiSession_lesson         AiSession[]         @relation("AiSession_lesson")
+  releaseSchedule_lesson   ReleaseSchedule[]   @relation("ReleaseSchedule_lesson")
+
+  @@unique([moduleId, position])
+  @@unique([moduleId, slug])
+  @@index([moduleId])
+  @@index([prerequisiteId])
+}
+
+model LessonTranslation {
+  id         String   @id @default(uuid()) @map("_id")
+  locale     Locale
+  title      String
+  objectives Json
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  lessonId   String
+  lesson     Lesson   @relation("LessonTranslation_lesson", fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([lessonId, locale])
+  @@index([lessonId])
+}
+
+model LessonBlock {
+  id                     String             @id @default(uuid()) @map("_id")
+  position               Int
+  type                   BlockType
+  required               Boolean            @default(true)
+  weight                 Int                @default(1)
+  version                Int                @default(1)
+  content                Json
+  createdAt              DateTime           @default(now())
+  updatedAt              DateTime           @updatedAt
+  lessonId               String
+  lesson                 Lesson             @relation("LessonBlock_lesson", fields: [lessonId], references: [id], onDelete: NoAction)
+  mediaId                String?
+  media                  MediaAsset?        @relation("LessonBlock_media", fields: [mediaId], references: [id], onDelete: NoAction)
+  blockTranslation_block BlockTranslation[] @relation("BlockTranslation_block")
+  activityProgress_block ActivityProgress[] @relation("ActivityProgress_block")
+  activityAttempt_block  ActivityAttempt[]  @relation("ActivityAttempt_block")
+
+  @@unique([lessonId, position])
+  @@index([lessonId])
+  @@index([mediaId])
+}
+
+model BlockTranslation {
+  id        String      @id @default(uuid()) @map("_id")
+  locale    Locale
+  content   Json
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+  blockId   String
+  block     LessonBlock @relation("BlockTranslation_block", fields: [blockId], references: [id], onDelete: Cascade)
+
+  @@unique([blockId, locale])
+  @@index([blockId])
+}
+
+model MediaAsset {
+  id                String          @id @default(uuid()) @map("_id")
+  storageKey        String          @unique
+  kind              String
+  mimeType          String
+  sizeBytes         BigInt
+  durationSeconds   Float?
+  checksum          String
+  visibility        MediaVisibility @default(PRIVATE)
+  altText           String?
+  deletedAt         DateTime?
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+  ownerId           String
+  owner             User            @relation("MediaAsset_owner", fields: [ownerId], references: [id], onDelete: NoAction)
+  lessonBlock_media LessonBlock[]   @relation("LessonBlock_media")
+  aiMessage_audio   AiMessage[]     @relation("AiMessage_audio")
+
+  @@index([ownerId])
+}
+
+model ContentRevision {
+  id          String    @id @default(uuid()) @map("_id")
+  entityType  String
+  entityId    String
+  version     Int
+  snapshot    Json
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  authorId    String
+  author      User      @relation("ContentRevision_author", fields: [authorId], references: [id], onDelete: NoAction)
+  reviewerId  String?
+  reviewer    User?     @relation("ContentRevision_reviewer", fields: [reviewerId], references: [id], onDelete: NoAction)
+
+  @@unique([entityType, entityId, version])
+  @@index([authorId])
+  @@index([reviewerId])
+}
+
+model Question {
+  id                       String            @id @default(uuid()) @map("_id")
+  type                     QuestionType
+  skill                    Skill
+  level                    CefrLevel
+  status                   PublicationStatus @default(DRAFT)
+  currentVersion           Int               @default(1)
+  createdAt                DateTime          @default(now())
+  updatedAt                DateTime          @updatedAt
+  questionVersion_question QuestionVersion[] @relation("QuestionVersion_question")
+
+  @@index([status, skill, level])
+}
+
+model QuestionVersion {
+  id                                 String               @id @default(uuid()) @map("_id")
+  version                            Int
+  stem                               Json
+  answerKey                          Json
+  explanation                        Json
+  createdAt                          DateTime             @default(now())
+  questionId                         String
+  question                           Question             @relation("QuestionVersion_question", fields: [questionId], references: [id], onDelete: NoAction)
+  assessmentQuestion_questionVersion AssessmentQuestion[] @relation("AssessmentQuestion_questionVersion")
+  assessmentAnswer_questionVersion   AssessmentAnswer[]   @relation("AssessmentAnswer_questionVersion")
+
+  @@unique([questionId, version])
+  @@index([questionId])
+}
+
+model ExamBlueprint {
+  id                   String       @id @default(uuid()) @map("_id")
+  examType             String
+  version              Int
+  sections             Json
+  timing               Json
+  scoring              Json
+  sourceUrl            String?
+  sourceReviewedAt     DateTime?
+  createdAt            DateTime     @default(now())
+  updatedAt            DateTime     @updatedAt
+  assessment_blueprint Assessment[] @relation("Assessment_blueprint")
+
+  @@unique([examType, version])
+}
+
+model Assessment {
+  id                            String               @id @default(uuid()) @map("_id")
+  name                          String
+  type                          AssessmentType
+  status                        PublicationStatus    @default(DRAFT)
+  version                       Int                  @default(1)
+  durationSeconds               Int
+  passingScore                  Float
+  createdAt                     DateTime             @default(now())
+  updatedAt                     DateTime             @updatedAt
+  courseId                      String?
+  course                        Course?              @relation("Assessment_course", fields: [courseId], references: [id], onDelete: NoAction)
+  moduleId                      String?
+  module                        Module?              @relation("Assessment_module", fields: [moduleId], references: [id], onDelete: NoAction)
+  blueprintId                   String?
+  blueprint                     ExamBlueprint?       @relation("Assessment_blueprint", fields: [blueprintId], references: [id], onDelete: NoAction)
+  assessmentQuestion_assessment AssessmentQuestion[] @relation("AssessmentQuestion_assessment")
+  assessmentAttempt_assessment  AssessmentAttempt[]  @relation("AssessmentAttempt_assessment")
+
+  @@index([courseId])
+  @@index([moduleId])
+  @@index([blueprintId])
+}
+
+model AssessmentQuestion {
+  id                String          @id @default(uuid()) @map("_id")
+  position          Int
+  points            Float
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+  assessmentId      String
+  assessment        Assessment      @relation("AssessmentQuestion_assessment", fields: [assessmentId], references: [id], onDelete: NoAction)
+  questionVersionId String
+  questionVersion   QuestionVersion @relation("AssessmentQuestion_questionVersion", fields: [questionVersionId], references: [id], onDelete: NoAction)
+
+  @@unique([assessmentId, position])
+  @@unique([assessmentId, questionVersionId])
+  @@index([assessmentId])
+  @@index([questionVersionId])
+}
+
+model AssessmentAttempt {
+  id                       String             @id @default(uuid()) @map("_id")
+  assessmentVersion        Int
+  snapshot                 Json
+  status                   AttemptStatus      @default(IN_PROGRESS)
+  startedAt                DateTime           @default(now())
+  deadlineAt               DateTime
+  submittedAt              DateTime?
+  score                    Float?
+  rubric                   Json?
+  graderVersion            String?
+  createdAt                DateTime           @default(now())
+  updatedAt                DateTime           @updatedAt
+  userId                   String
+  user                     User               @relation("AssessmentAttempt_user", fields: [userId], references: [id], onDelete: NoAction)
+  assessmentId             String
+  assessment               Assessment         @relation("AssessmentAttempt_assessment", fields: [assessmentId], references: [id], onDelete: NoAction)
+  assessmentAnswer_attempt AssessmentAnswer[] @relation("AssessmentAnswer_attempt")
+
+  @@index([userId, status])
+  @@index([userId])
+  @@index([assessmentId])
+}
+
+model AssessmentAnswer {
+  id                String            @id @default(uuid()) @map("_id")
+  answer            Json
+  awardedPoints     Float?
+  feedback          Json?
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  attemptId         String
+  attempt           AssessmentAttempt @relation("AssessmentAnswer_attempt", fields: [attemptId], references: [id], onDelete: NoAction)
+  questionVersionId String
+  questionVersion   QuestionVersion   @relation("AssessmentAnswer_questionVersion", fields: [questionVersionId], references: [id], onDelete: NoAction)
+
+  @@unique([attemptId, questionVersionId])
+  @@index([attemptId])
+  @@index([questionVersionId])
+}
+
+model Enrollment {
+  id          String           @id @default(uuid()) @map("_id")
+  status      EnrollmentStatus @default(ACTIVE)
+  startedAt   DateTime         @default(now())
+  completedAt DateTime?
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+  userId      String
+  user        User             @relation("Enrollment_user", fields: [userId], references: [id], onDelete: NoAction)
+  courseId    String
+  course      Course           @relation("Enrollment_course", fields: [courseId], references: [id], onDelete: NoAction)
+
+  @@unique([userId, courseId])
+  @@index([userId])
+  @@index([courseId])
+}
+
+model LessonProgress {
+  id              String         @id @default(uuid()) @map("_id")
+  status          ProgressStatus @default(NOT_STARTED)
+  completedWeight Int            @default(0)
+  totalWeight     Int            @default(0)
+  lessonVersion   Int
+  lastBlockId     String?
+  completedAt     DateTime?
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+  userId          String
+  user            User           @relation("LessonProgress_user", fields: [userId], references: [id], onDelete: NoAction)
+  lessonId        String
+  lesson          Lesson         @relation("LessonProgress_lesson", fields: [lessonId], references: [id], onDelete: NoAction)
+
+  @@unique([userId, lessonId])
+  @@index([userId])
+  @@index([lessonId])
+}
+
+model ActivityProgress {
+  id           String         @id @default(uuid()) @map("_id")
+  status       ProgressStatus @default(NOT_STARTED)
+  blockVersion Int
+  completedAt  DateTime?
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  userId       String
+  user         User           @relation("ActivityProgress_user", fields: [userId], references: [id], onDelete: NoAction)
+  blockId      String
+  block        LessonBlock    @relation("ActivityProgress_block", fields: [blockId], references: [id], onDelete: NoAction)
+
+  @@unique([userId, blockId])
+  @@index([userId])
+  @@index([blockId])
+}
+
+model ActivityAttempt {
+  id           String      @id @default(uuid()) @map("_id")
+  blockVersion Int
+  snapshot     Json
+  answer       Json
+  score        Float?
+  feedback     Json?
+  createdAt    DateTime    @default(now())
+  userId       String
+  user         User        @relation("ActivityAttempt_user", fields: [userId], references: [id], onDelete: NoAction)
+  blockId      String
+  block        LessonBlock @relation("ActivityAttempt_block", fields: [blockId], references: [id], onDelete: NoAction)
+
+  @@index([userId, blockId, createdAt])
+  @@index([userId])
+  @@index([blockId])
+}
+
+model VocabularyItem {
+  id                         String                  @id @default(uuid()) @map("_id")
+  lemma                      String
+  partOfSpeech               String
+  level                      CefrLevel
+  pronunciation              String?
+  exampleText                String
+  createdAt                  DateTime                @default(now())
+  updatedAt                  DateTime                @updatedAt
+  vocabularyTranslation_item VocabularyTranslation[] @relation("VocabularyTranslation_item")
+  lessonVocabulary_item      LessonVocabulary[]      @relation("LessonVocabulary_item")
+  reviewCard_item            ReviewCard[]            @relation("ReviewCard_item")
+
+  @@unique([lemma, partOfSpeech, level])
+}
+
+model VocabularyTranslation {
+  id        String         @id @default(uuid()) @map("_id")
+  locale    Locale
+  meaning   String
+  notes     String?
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+  itemId    String
+  item      VocabularyItem @relation("VocabularyTranslation_item", fields: [itemId], references: [id], onDelete: Cascade)
+
+  @@unique([itemId, locale])
+  @@index([itemId])
+}
+
+model LessonVocabulary {
+  id        String         @id @default(uuid()) @map("_id")
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+  lessonId  String
+  lesson    Lesson         @relation("LessonVocabulary_lesson", fields: [lessonId], references: [id], onDelete: NoAction)
+  itemId    String
+  item      VocabularyItem @relation("LessonVocabulary_item", fields: [itemId], references: [id], onDelete: NoAction)
+
+  @@unique([lessonId, itemId])
+  @@index([lessonId])
+  @@index([itemId])
+}
+
+model ReviewCard {
+  id               String         @id @default(uuid()) @map("_id")
+  dueAt            DateTime
+  intervalDays     Int            @default(0)
+  ease             Float        @default(2.5)
+  repetitions      Int            @default(0)
+  lastReviewedAt   DateTime?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  userId           String
+  user             User           @relation("ReviewCard_user", fields: [userId], references: [id], onDelete: NoAction)
+  itemId           String
+  item             VocabularyItem @relation("ReviewCard_item", fields: [itemId], references: [id], onDelete: NoAction)
+  reviewEvent_card ReviewEvent[]  @relation("ReviewEvent_card")
+
+  @@unique([userId, itemId])
+  @@index([userId, dueAt])
+  @@index([userId])
+  @@index([itemId])
+}
+
+model ReviewEvent {
+  id        String     @id @default(uuid()) @map("_id")
+  rating    Int
+  createdAt DateTime   @default(now())
+  cardId    String
+  card      ReviewCard @relation("ReviewEvent_card", fields: [cardId], references: [id], onDelete: NoAction)
+
+  @@index([cardId])
+}
+
+model StudyEvent {
+  id            String   @id @default(uuid()) @map("_id")
+  type          String
+  referenceId   String?
+  activeSeconds Int
+  createdAt     DateTime @default(now())
+  userId        String
+  user          User     @relation("StudyEvent_user", fields: [userId], references: [id], onDelete: NoAction)
+
+  @@index([userId, createdAt])
+  @@index([userId])
+}
+
+model AiSession {
+  id                String      @id @default(uuid()) @map("_id")
+  mode              TutorMode
+  level             CefrLevel
+  locale            Locale
+  retainTranscript  Boolean     @default(false)
+  closedAt          DateTime?
+  deletedAt         DateTime?
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+  userId            String
+  user              User        @relation("AiSession_user", fields: [userId], references: [id], onDelete: NoAction)
+  courseId          String?
+  course            Course?     @relation("AiSession_course", fields: [courseId], references: [id], onDelete: NoAction)
+  lessonId          String?
+  lesson            Lesson?     @relation("AiSession_lesson", fields: [lessonId], references: [id], onDelete: NoAction)
+  aiMessage_session AiMessage[] @relation("AiMessage_session")
+  aiUsage_session   AiUsage[]   @relation("AiUsage_session")
+
+  @@index([userId, createdAt])
+  @@index([userId])
+  @@index([courseId])
+  @@index([lessonId])
+}
+
+model AiMessage {
+  id         String      @id @default(uuid()) @map("_id")
+  role       MessageRole
+  transcript String?
+  feedback   Json?
+  createdAt  DateTime    @default(now())
+  sessionId  String
+  session    AiSession   @relation("AiMessage_session", fields: [sessionId], references: [id], onDelete: Cascade)
+  audioId    String?
+  audio      MediaAsset? @relation("AiMessage_audio", fields: [audioId], references: [id], onDelete: NoAction)
+
+  @@index([sessionId])
+  @@index([audioId])
+}
+
+model AiUsage {
+  id               String     @id @default(uuid()) @map("_id")
+  provider         String
+  model            String
+  operation        String
+  inputTokens      Int        @default(0)
+  outputTokens     Int        @default(0)
+  audioSeconds     Float    @default(0)
+  estimatedCostUsd Float    @default(0)
+  requestKey       String     @unique
+  createdAt        DateTime   @default(now())
+  userId           String
+  user             User       @relation("AiUsage_user", fields: [userId], references: [id], onDelete: NoAction)
+  sessionId        String?
+  session          AiSession? @relation("AiUsage_session", fields: [sessionId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([userId])
+  @@index([sessionId])
+}
+
+model AiQuota {
+  id                String   @id @default(uuid()) @map("_id")
+  periodStart       DateTime
+  periodEnd         DateTime
+  messageLimit      Int
+  messagesUsed      Int      @default(0)
+  audioSecondsLimit Int
+  audioSecondsUsed  Int      @default(0)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  userId            String
+  user              User     @relation("AiQuota_user", fields: [userId], references: [id], onDelete: NoAction)
+
+  @@unique([userId, periodStart])
+  @@index([userId])
+}
+
+model Plan {
+  id                 String         @id @default(uuid()) @map("_id")
+  code               String         @unique
+  name               String
+  priceMinor         BigInt
+  currency           String         @default("UZS")
+  interval           PlanInterval
+  aiMessageAllowance Int            @default(0)
+  aiAudioSeconds     Int            @default(0)
+  active             Boolean        @default(false)
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
+  planCourse_plan    PlanCourse[]   @relation("PlanCourse_plan")
+  order_plan         Order[]        @relation("Order_plan")
+  subscription_plan  Subscription[] @relation("Subscription_plan")
+}
+
+model PlanCourse {
+  id        String   @id @default(uuid()) @map("_id")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  planId    String
+  plan      Plan     @relation("PlanCourse_plan", fields: [planId], references: [id], onDelete: NoAction)
+  courseId  String
+  course    Course   @relation("PlanCourse_course", fields: [courseId], references: [id], onDelete: NoAction)
+
+  @@unique([planId, courseId])
+  @@index([planId])
+  @@index([courseId])
+}
+
+model Order {
+  id                 String         @id @default(uuid()) @map("_id")
+  amountMinor        BigInt
+  currency           String         @default("UZS")
+  status             OrderStatus    @default(PENDING)
+  idempotencyKey     String         @unique
+  expiresAt          DateTime
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
+  userId             String
+  user               User           @relation("Order_user", fields: [userId], references: [id], onDelete: NoAction)
+  planId             String
+  plan               Plan           @relation("Order_plan", fields: [planId], references: [id], onDelete: NoAction)
+  payment_order      Payment[]      @relation("Payment_order")
+  subscription_order Subscription[] @relation("Subscription_order")
+  entitlement_order  Entitlement[]  @relation("Entitlement_order")
+
+  @@index([userId, status])
+  @@index([userId])
+  @@index([planId])
+}
+
+model Payment {
+  id                    String          @id @default(uuid()) @map("_id")
+  provider              PaymentProvider
+  providerTransactionId String
+  status                PaymentStatus   @default(PENDING)
+  amountMinor           BigInt
+  currency              String          @default("UZS")
+  verifiedAt            DateTime?
+  createdAt             DateTime        @default(now())
+  updatedAt             DateTime        @updatedAt
+  orderId               String
+  order                 Order           @relation("Payment_order", fields: [orderId], references: [id], onDelete: NoAction)
+  paymentEvent_payment  PaymentEvent[]  @relation("PaymentEvent_payment")
+
+  @@unique([provider, providerTransactionId])
+  @@index([orderId])
+}
+
+model PaymentEvent {
+  id              String          @id @default(uuid()) @map("_id")
+  provider        PaymentProvider
+  providerEventId String
+  payloadDigest   String
+  processedAt     DateTime?
+  createdAt       DateTime        @default(now())
+  paymentId       String?
+  payment         Payment?        @relation("PaymentEvent_payment", fields: [paymentId], references: [id], onDelete: NoAction)
+
+  @@unique([provider, providerEventId])
+  @@index([paymentId])
+}
+
+model Subscription {
+  id        String             @id @default(uuid()) @map("_id")
+  status    SubscriptionStatus @default(PENDING)
+  startsAt  DateTime
+  endsAt    DateTime
+  autoRenew Boolean            @default(false)
+  createdAt DateTime           @default(now())
+  updatedAt DateTime           @updatedAt
+  userId    String
+  user      User               @relation("Subscription_user", fields: [userId], references: [id], onDelete: NoAction)
+  planId    String
+  plan      Plan               @relation("Subscription_plan", fields: [planId], references: [id], onDelete: NoAction)
+  orderId   String
+  order     Order              @relation("Subscription_order", fields: [orderId], references: [id], onDelete: NoAction)
+
+  @@index([userId, status, endsAt])
+  @@index([userId])
+  @@index([planId])
+  @@index([orderId])
+}
+
+model Entitlement {
+  id         String    @id @default(uuid()) @map("_id")
+  validFrom  DateTime
+  validUntil DateTime
+  revokedAt  DateTime?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  userId     String
+  user       User      @relation("Entitlement_user", fields: [userId], references: [id], onDelete: NoAction)
+  courseId   String
+  course     Course    @relation("Entitlement_course", fields: [courseId], references: [id], onDelete: NoAction)
+  orderId    String
+  order      Order     @relation("Entitlement_order", fields: [orderId], references: [id], onDelete: NoAction)
+
+  @@unique([userId, courseId, orderId])
+  @@index([userId, validUntil])
+  @@index([userId])
+  @@index([courseId])
+  @@index([orderId])
+}
+
+model Certificate {
+  id                String    @id @default(uuid()) @map("_id")
+  serial            String    @unique
+  verificationToken String    @unique
+  issuedAt          DateTime  @default(now())
+  revokedAt         DateTime?
+  publicConsent     Boolean   @default(false)
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  userId            String
+  user              User      @relation("Certificate_user", fields: [userId], references: [id], onDelete: NoAction)
+  courseId          String
+  course            Course    @relation("Certificate_course", fields: [courseId], references: [id], onDelete: NoAction)
+
+  @@unique([userId, courseId])
+  @@index([userId])
+  @@index([courseId])
+}
+
+model ReleaseSchedule {
+  id              String        @id @default(uuid()) @map("_id")
+  scheduledAt     DateTime
+  processedAt     DateTime?
+  status          ReleaseStatus @default(PENDING)
+  expectedVersion Int
+  errorCode       String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+  lessonId        String
+  lesson          Lesson        @relation("ReleaseSchedule_lesson", fields: [lessonId], references: [id], onDelete: NoAction)
+  creatorId       String
+  creator         User          @relation("ReleaseSchedule_creator", fields: [creatorId], references: [id], onDelete: NoAction)
+
+  @@index([status, scheduledAt])
+  @@index([lessonId])
+  @@index([creatorId])
+}
+
+model AuditLog {
+  id           String   @id @default(uuid()) @map("_id")
+  action       String
+  resourceType String
+  resourceId   String?
+  requestId    String?
+  metadata     Json?
+  createdAt    DateTime @default(now())
+  actorId      String?
+  actor        User?    @relation("AuditLog_actor", fields: [actorId], references: [id], onDelete: SetNull)
+
+  @@index([actorId, createdAt])
+  @@index([resourceType, resourceId])
+  @@index([actorId])
+}
+
+model Setting {
+  id        String   @id @default(uuid()) @map("_id")
+  key       String   @unique
+  value     Json
+  public    Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

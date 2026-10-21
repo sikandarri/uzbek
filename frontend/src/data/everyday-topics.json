@@ -1,0 +1,3512 @@
+[
+  {
+    "id": "fruits",
+    "en": "Fruits",
+    "uz": "Mevalar",
+    "category": "Food",
+    "words": [
+      {
+        "en": "apricot",
+        "uz": "o‘rik"
+      },
+      {
+        "en": "peach",
+        "uz": "shaftoli"
+      },
+      {
+        "en": "pear",
+        "uz": "nok"
+      },
+      {
+        "en": "plum",
+        "uz": "olxo‘ri"
+      },
+      {
+        "en": "cherry",
+        "uz": "gilos"
+      },
+      {
+        "en": "sour cherry",
+        "uz": "olcha"
+      },
+      {
+        "en": "strawberry",
+        "uz": "qulupnay"
+      },
+      {
+        "en": "raspberry",
+        "uz": "malina"
+      },
+      {
+        "en": "blackberry",
+        "uz": "maymunjon"
+      },
+      {
+        "en": "blueberry",
+        "uz": "chernika (ko‘k rezavor meva)"
+      },
+      {
+        "en": "grape",
+        "uz": "uzum"
+      },
+      {
+        "en": "pomegranate",
+        "uz": "anor"
+      },
+      {
+        "en": "fig",
+        "uz": "anjir"
+      },
+      {
+        "en": "date fruit",
+        "uz": "xurmo"
+      },
+      {
+        "en": "melon",
+        "uz": "qovun"
+      },
+      {
+        "en": "watermelon",
+        "uz": "tarvuz"
+      },
+      {
+        "en": "banana",
+        "uz": "banan"
+      },
+      {
+        "en": "kiwi",
+        "uz": "kivi"
+      },
+      {
+        "en": "pineapple",
+        "uz": "ananas"
+      },
+      {
+        "en": "mango",
+        "uz": "mango"
+      },
+      {
+        "en": "grapefruit",
+        "uz": "greypfrut"
+      },
+      {
+        "en": "lime",
+        "uz": "laym"
+      },
+      {
+        "en": "lemon",
+        "uz": "limon"
+      },
+      {
+        "en": "coconut",
+        "uz": "kokos"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I bought ripe apricots at the market.",
+        "uz": "Men bozordan pishgan o‘rik sotib oldim."
+      },
+      {
+        "en": "Would you prefer a slice of melon or watermelon?",
+        "uz": "Bir bo‘lak qovunmi yoki tarvuzmi xohlaysiz?"
+      }
+    ]
+  },
+  {
+    "id": "vegetables",
+    "en": "Vegetables",
+    "uz": "Sabzavotlar",
+    "category": "Food",
+    "words": [
+      {
+        "en": "cabbage",
+        "uz": "karam"
+      },
+      {
+        "en": "cauliflower",
+        "uz": "gulkaram"
+      },
+      {
+        "en": "broccoli",
+        "uz": "brokkoli"
+      },
+      {
+        "en": "spinach",
+        "uz": "ismaloq"
+      },
+      {
+        "en": "lettuce",
+        "uz": "salat bargi"
+      },
+      {
+        "en": "radish",
+        "uz": "turp"
+      },
+      {
+        "en": "beetroot",
+        "uz": "lavlagi"
+      },
+      {
+        "en": "turnip",
+        "uz": "sholg‘om"
+      },
+      {
+        "en": "eggplant",
+        "uz": "baqlajon"
+      },
+      {
+        "en": "zucchini",
+        "uz": "qovoqcha"
+      },
+      {
+        "en": "pumpkin",
+        "uz": "oshqovoq"
+      },
+      {
+        "en": "bell pepper",
+        "uz": "bulg‘or qalampiri"
+      },
+      {
+        "en": "chili pepper",
+        "uz": "achchiq qalampir"
+      },
+      {
+        "en": "garlic",
+        "uz": "sarimsoq"
+      },
+      {
+        "en": "spring onion",
+        "uz": "ko‘k piyoz"
+      },
+      {
+        "en": "green peas",
+        "uz": "yashil no‘xat"
+      },
+      {
+        "en": "beans",
+        "uz": "loviya"
+      },
+      {
+        "en": "sweet corn",
+        "uz": "shirin makkajo‘xori"
+      },
+      {
+        "en": "mushroom",
+        "uz": "qo‘ziqorin"
+      },
+      {
+        "en": "celery",
+        "uz": "selderey"
+      },
+      {
+        "en": "parsley",
+        "uz": "petrushka"
+      },
+      {
+        "en": "dill",
+        "uz": "shivit"
+      },
+      {
+        "en": "mint",
+        "uz": "yalpiz"
+      },
+      {
+        "en": "asparagus",
+        "uz": "sarsabil"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Please chop the eggplant and bell pepper for dinner.",
+        "uz": "Iltimos, kechki ovqat uchun baqlajon va bulg‘or qalampirini to‘g‘rang."
+      },
+      {
+        "en": "We grow parsley and dill in our garden.",
+        "uz": "Biz bog‘imizda petrushka va shivit yetishtiramiz."
+      }
+    ]
+  },
+  {
+    "id": "colors",
+    "en": "Colors & shades",
+    "uz": "Ranglar va tuslar",
+    "category": "Descriptions",
+    "words": [
+      {
+        "en": "red",
+        "uz": "qizil"
+      },
+      {
+        "en": "blue",
+        "uz": "ko‘k"
+      },
+      {
+        "en": "green",
+        "uz": "yashil"
+      },
+      {
+        "en": "yellow",
+        "uz": "sariq"
+      },
+      {
+        "en": "orange",
+        "uz": "to‘q sariq"
+      },
+      {
+        "en": "purple",
+        "uz": "binafsha"
+      },
+      {
+        "en": "pink",
+        "uz": "pushti"
+      },
+      {
+        "en": "brown",
+        "uz": "jigarrang"
+      },
+      {
+        "en": "black",
+        "uz": "qora"
+      },
+      {
+        "en": "white",
+        "uz": "oq"
+      },
+      {
+        "en": "gray",
+        "uz": "kulrang"
+      },
+      {
+        "en": "beige",
+        "uz": "bej"
+      },
+      {
+        "en": "navy blue",
+        "uz": "to‘q ko‘k"
+      },
+      {
+        "en": "turquoise",
+        "uz": "firuza rang"
+      },
+      {
+        "en": "maroon",
+        "uz": "to‘q qizil"
+      },
+      {
+        "en": "gold color",
+        "uz": "oltin rang"
+      },
+      {
+        "en": "silver color",
+        "uz": "kumush rang"
+      },
+      {
+        "en": "light blue",
+        "uz": "och ko‘k"
+      },
+      {
+        "en": "dark green",
+        "uz": "to‘q yashil"
+      },
+      {
+        "en": "cream color",
+        "uz": "qaymoq rang"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The walls are light blue, but the door is dark green.",
+        "uz": "Devorlar och ko‘k, eshik esa to‘q yashil."
+      },
+      {
+        "en": "She chose a turquoise scarf to match her coat.",
+        "uz": "U paltosiga mos firuza rang sharf tanladi."
+      }
+    ]
+  },
+  {
+    "id": "farm-animals",
+    "en": "Farm animals",
+    "uz": "Uy va xo‘jalik hayvonlari",
+    "category": "Animals",
+    "words": [
+      {
+        "en": "cow",
+        "uz": "sigir"
+      },
+      {
+        "en": "calf",
+        "uz": "buzoq"
+      },
+      {
+        "en": "bull",
+        "uz": "buqa"
+      },
+      {
+        "en": "sheep",
+        "uz": "qo‘y"
+      },
+      {
+        "en": "lamb",
+        "uz": "qo‘zichoq"
+      },
+      {
+        "en": "goat",
+        "uz": "echki"
+      },
+      {
+        "en": "kid goat",
+        "uz": "uloq"
+      },
+      {
+        "en": "horse",
+        "uz": "ot"
+      },
+      {
+        "en": "foal",
+        "uz": "toychoq"
+      },
+      {
+        "en": "donkey",
+        "uz": "eshak"
+      },
+      {
+        "en": "camel",
+        "uz": "tuya"
+      },
+      {
+        "en": "pig",
+        "uz": "cho‘chqa"
+      },
+      {
+        "en": "hen",
+        "uz": "tovuq (urg‘ochi)"
+      },
+      {
+        "en": "rooster",
+        "uz": "xo‘roz"
+      },
+      {
+        "en": "duck",
+        "uz": "o‘rdak"
+      },
+      {
+        "en": "goose",
+        "uz": "g‘oz"
+      },
+      {
+        "en": "rabbit",
+        "uz": "quyon"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The farmer feeds the cows before sunrise.",
+        "uz": "Fermer quyosh chiqishidan oldin sigirlarni oziqlantiradi."
+      },
+      {
+        "en": "A young foal is standing beside its mother.",
+        "uz": "Yosh toychoq onasining yonida turibdi."
+      }
+    ]
+  },
+  {
+    "id": "wild-animals",
+    "en": "Wild animals",
+    "uz": "Yovvoyi hayvonlar",
+    "category": "Animals",
+    "words": [
+      {
+        "en": "lion",
+        "uz": "sher"
+      },
+      {
+        "en": "tiger",
+        "uz": "yo‘lbars"
+      },
+      {
+        "en": "leopard",
+        "uz": "qoplon"
+      },
+      {
+        "en": "cheetah",
+        "uz": "gepard"
+      },
+      {
+        "en": "elephant",
+        "uz": "fil"
+      },
+      {
+        "en": "giraffe",
+        "uz": "jirafa"
+      },
+      {
+        "en": "zebra",
+        "uz": "zebra"
+      },
+      {
+        "en": "rhinoceros",
+        "uz": "karkidon"
+      },
+      {
+        "en": "hippopotamus",
+        "uz": "begemot"
+      },
+      {
+        "en": "bear",
+        "uz": "ayiq"
+      },
+      {
+        "en": "wolf",
+        "uz": "bo‘ri"
+      },
+      {
+        "en": "fox",
+        "uz": "tulki"
+      },
+      {
+        "en": "deer",
+        "uz": "kiyik"
+      },
+      {
+        "en": "monkey",
+        "uz": "maymun"
+      },
+      {
+        "en": "gorilla",
+        "uz": "gorilla"
+      },
+      {
+        "en": "panda",
+        "uz": "panda"
+      },
+      {
+        "en": "kangaroo",
+        "uz": "kenguru"
+      },
+      {
+        "en": "crocodile",
+        "uz": "timsoh"
+      }
+    ],
+    "examples": [
+      {
+        "en": "A giraffe can reach leaves on a very tall tree.",
+        "uz": "Jirafa juda baland daraxtdagi barglarga yeta oladi."
+      },
+      {
+        "en": "We saw a brown bear from a safe distance.",
+        "uz": "Biz qo‘ng‘ir ayiqni xavfsiz masofadan ko‘rdik."
+      }
+    ]
+  },
+  {
+    "id": "birds",
+    "en": "Birds",
+    "uz": "Qushlar",
+    "category": "Animals",
+    "words": [
+      {
+        "en": "sparrow",
+        "uz": "chumchuq"
+      },
+      {
+        "en": "pigeon",
+        "uz": "kabutar"
+      },
+      {
+        "en": "crow",
+        "uz": "qarg‘a"
+      },
+      {
+        "en": "raven",
+        "uz": "quzg‘un"
+      },
+      {
+        "en": "eagle",
+        "uz": "burgut"
+      },
+      {
+        "en": "falcon",
+        "uz": "lochin"
+      },
+      {
+        "en": "owl",
+        "uz": "boyo‘g‘li"
+      },
+      {
+        "en": "parrot",
+        "uz": "to‘tiqush"
+      },
+      {
+        "en": "peacock",
+        "uz": "tovus"
+      },
+      {
+        "en": "swan",
+        "uz": "oqqush"
+      },
+      {
+        "en": "flamingo",
+        "uz": "flamingo"
+      },
+      {
+        "en": "stork",
+        "uz": "laylak"
+      },
+      {
+        "en": "swallow",
+        "uz": "qaldirg‘och"
+      },
+      {
+        "en": "woodpecker",
+        "uz": "qizilishton"
+      },
+      {
+        "en": "penguin",
+        "uz": "pingvin"
+      },
+      {
+        "en": "ostrich",
+        "uz": "tuyaqush"
+      }
+    ],
+    "examples": [
+      {
+        "en": "A stork built its nest near the village.",
+        "uz": "Laylak qishloq yaqinida uya qurdi."
+      },
+      {
+        "en": "The parrot is copying the sound of a bell.",
+        "uz": "To‘tiqush qo‘ng‘iroq ovoziga taqlid qilyapti."
+      }
+    ]
+  },
+  {
+    "id": "insects",
+    "en": "Insects & small creatures",
+    "uz": "Hasharotlar va mayda jonivorlar",
+    "category": "Animals",
+    "words": [
+      {
+        "en": "ant",
+        "uz": "chumoli"
+      },
+      {
+        "en": "bee",
+        "uz": "asalari"
+      },
+      {
+        "en": "wasp",
+        "uz": "ari"
+      },
+      {
+        "en": "butterfly",
+        "uz": "kapalak"
+      },
+      {
+        "en": "moth",
+        "uz": "tun kapalagi"
+      },
+      {
+        "en": "mosquito",
+        "uz": "chivin"
+      },
+      {
+        "en": "fly",
+        "uz": "pashsha"
+      },
+      {
+        "en": "beetle",
+        "uz": "qo‘ng‘iz"
+      },
+      {
+        "en": "grasshopper",
+        "uz": "chigirtka"
+      },
+      {
+        "en": "dragonfly",
+        "uz": "ninachi"
+      },
+      {
+        "en": "ladybird",
+        "uz": "xonqizi"
+      },
+      {
+        "en": "spider",
+        "uz": "o‘rgimchak"
+      },
+      {
+        "en": "snail",
+        "uz": "shilliqqurt"
+      },
+      {
+        "en": "worm",
+        "uz": "chuvalchang"
+      },
+      {
+        "en": "scorpion",
+        "uz": "chayon"
+      }
+    ],
+    "examples": [
+      {
+        "en": "A butterfly landed on the flower outside the window.",
+        "uz": "Kapalak deraza tashqarisidagi gulga qo‘ndi."
+      },
+      {
+        "en": "Close the window to keep mosquitoes out.",
+        "uz": "Chivinlar kirmasligi uchun derazani yoping."
+      }
+    ]
+  },
+  {
+    "id": "water-animals",
+    "en": "Fish & aquatic animals",
+    "uz": "Baliqlar va suv jonivorlari",
+    "category": "Animals",
+    "words": [
+      {
+        "en": "shark",
+        "uz": "akula"
+      },
+      {
+        "en": "dolphin",
+        "uz": "delfin"
+      },
+      {
+        "en": "whale",
+        "uz": "kit"
+      },
+      {
+        "en": "seal",
+        "uz": "tyulen"
+      },
+      {
+        "en": "octopus",
+        "uz": "sakkizoyoq"
+      },
+      {
+        "en": "squid",
+        "uz": "kalmar"
+      },
+      {
+        "en": "crab",
+        "uz": "qisqichbaqa"
+      },
+      {
+        "en": "shrimp",
+        "uz": "krevetka"
+      },
+      {
+        "en": "jellyfish",
+        "uz": "meduza"
+      },
+      {
+        "en": "starfish",
+        "uz": "dengiz yulduzi"
+      },
+      {
+        "en": "sea turtle",
+        "uz": "dengiz toshbaqasi"
+      },
+      {
+        "en": "seahorse",
+        "uz": "dengiz oti"
+      },
+      {
+        "en": "salmon",
+        "uz": "losos"
+      },
+      {
+        "en": "trout",
+        "uz": "forel"
+      },
+      {
+        "en": "carp",
+        "uz": "zog‘orabaliq"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The aquarium has a large tank for sea turtles.",
+        "uz": "Akvariumda dengiz toshbaqalari uchun katta hovuz bor."
+      },
+      {
+        "en": "We learned how dolphins communicate underwater.",
+        "uz": "Biz delfinlar suv ostida qanday muloqot qilishini o‘rgandik."
+      }
+    ]
+  },
+  {
+    "id": "pets",
+    "en": "Pets & pet care",
+    "uz": "Uy hayvonlari va parvarish",
+    "category": "Animals",
+    "words": [
+      {
+        "en": "cat",
+        "uz": "mushuk"
+      },
+      {
+        "en": "dog",
+        "uz": "it"
+      },
+      {
+        "en": "kitten",
+        "uz": "mushukcha"
+      },
+      {
+        "en": "puppy",
+        "uz": "kuchukcha"
+      },
+      {
+        "en": "hamster",
+        "uz": "xomyak"
+      },
+      {
+        "en": "guinea pig",
+        "uz": "dengiz cho‘chqachasi"
+      },
+      {
+        "en": "pet food",
+        "uz": "hayvonlar ozuqasi"
+      },
+      {
+        "en": "leash",
+        "uz": "bog‘ich"
+      },
+      {
+        "en": "collar for pets",
+        "uz": "bo‘yinbog‘"
+      },
+      {
+        "en": "pet carrier",
+        "uz": "hayvon tashish qutisi"
+      },
+      {
+        "en": "veterinarian",
+        "uz": "veterinar"
+      },
+      {
+        "en": "paw",
+        "uz": "panja"
+      },
+      {
+        "en": "fur",
+        "uz": "jun"
+      },
+      {
+        "en": "tail",
+        "uz": "dum"
+      },
+      {
+        "en": "whiskers",
+        "uz": "mo‘ylovchalar"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The veterinarian examined our kitten yesterday.",
+        "uz": "Veterinar kecha mushukchamizni ko‘rikdan o‘tkazdi."
+      },
+      {
+        "en": "Remember to put the dog on its leash outside.",
+        "uz": "Tashqarida itga bog‘ich taqishni unutmang."
+      }
+    ]
+  },
+  {
+    "id": "body-parts",
+    "en": "Body parts",
+    "uz": "Tana a’zolari",
+    "category": "Health",
+    "words": [
+      {
+        "en": "hair",
+        "uz": "soch"
+      },
+      {
+        "en": "forehead",
+        "uz": "peshona"
+      },
+      {
+        "en": "eyebrow",
+        "uz": "qosh"
+      },
+      {
+        "en": "eyelash",
+        "uz": "kiprik"
+      },
+      {
+        "en": "eye",
+        "uz": "ko‘z"
+      },
+      {
+        "en": "ear",
+        "uz": "quloq"
+      },
+      {
+        "en": "nose",
+        "uz": "burun"
+      },
+      {
+        "en": "cheek",
+        "uz": "yonoq"
+      },
+      {
+        "en": "chin",
+        "uz": "iyak"
+      },
+      {
+        "en": "neck",
+        "uz": "bo‘yin"
+      },
+      {
+        "en": "elbow",
+        "uz": "tirsak"
+      },
+      {
+        "en": "wrist",
+        "uz": "bilak"
+      },
+      {
+        "en": "thumb",
+        "uz": "bosh barmoq"
+      },
+      {
+        "en": "palm",
+        "uz": "kaft"
+      },
+      {
+        "en": "waist",
+        "uz": "bel"
+      },
+      {
+        "en": "hip",
+        "uz": "son-bo‘ksa"
+      },
+      {
+        "en": "ankle",
+        "uz": "to‘piq"
+      },
+      {
+        "en": "heel",
+        "uz": "tovon"
+      },
+      {
+        "en": "skin",
+        "uz": "teri"
+      },
+      {
+        "en": "lung",
+        "uz": "o‘pka"
+      },
+      {
+        "en": "liver",
+        "uz": "jigar"
+      },
+      {
+        "en": "kidney",
+        "uz": "buyrak"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Wash your hands carefully before eating.",
+        "uz": "Ovqatlanishdan oldin qo‘llaringizni yaxshilab yuving."
+      },
+      {
+        "en": "My left ankle hurts after playing football.",
+        "uz": "Futboldan keyin chap to‘pig‘im og‘riyapti."
+      }
+    ]
+  },
+  {
+    "id": "clothes-details",
+    "en": "Clothes & accessories",
+    "uz": "Kiyimlar va aksessuarlar",
+    "category": "Daily life",
+    "words": [
+      {
+        "en": "shirt",
+        "uz": "ko‘ylak"
+      },
+      {
+        "en": "T-shirt",
+        "uz": "futbolka"
+      },
+      {
+        "en": "skirt",
+        "uz": "yubka"
+      },
+      {
+        "en": "blouse",
+        "uz": "bluzka"
+      },
+      {
+        "en": "coat",
+        "uz": "palto"
+      },
+      {
+        "en": "sweater",
+        "uz": "sviter"
+      },
+      {
+        "en": "hoodie",
+        "uz": "kapyushonli kiyim"
+      },
+      {
+        "en": "socks",
+        "uz": "paypoq"
+      },
+      {
+        "en": "gloves",
+        "uz": "qo‘lqop"
+      },
+      {
+        "en": "belt",
+        "uz": "kamar"
+      },
+      {
+        "en": "tie",
+        "uz": "galstuk"
+      },
+      {
+        "en": "sunglasses",
+        "uz": "quyoshdan saqlovchi ko‘zoynak"
+      },
+      {
+        "en": "handbag",
+        "uz": "ayollar sumkasi"
+      },
+      {
+        "en": "backpack",
+        "uz": "ryukzak"
+      },
+      {
+        "en": "uniform",
+        "uz": "forma"
+      },
+      {
+        "en": "zipper",
+        "uz": "zamok (kiyimdagi)"
+      },
+      {
+        "en": "button",
+        "uz": "tugma"
+      },
+      {
+        "en": "sleeve",
+        "uz": "yeng"
+      },
+      {
+        "en": "pocket",
+        "uz": "cho‘ntak"
+      }
+    ],
+    "examples": [
+      {
+        "en": "This coat has deep pockets and warm sleeves.",
+        "uz": "Bu paltoning cho‘ntaklari chuqur, yenglari esa issiq."
+      },
+      {
+        "en": "Please zip up your hoodie before going outside.",
+        "uz": "Ko‘chaga chiqishdan oldin kapyushonli kiyimingizni yopib oling."
+      }
+    ]
+  },
+  {
+    "id": "daily-routines",
+    "en": "Daily routines",
+    "uz": "Kundalik ishlar",
+    "category": "Daily life",
+    "words": [
+      {
+        "en": "wake up",
+        "uz": "uyg‘onmoq"
+      },
+      {
+        "en": "get out of bed",
+        "uz": "o‘rindan turmoq"
+      },
+      {
+        "en": "brush teeth",
+        "uz": "tish yuvmoq"
+      },
+      {
+        "en": "wash face",
+        "uz": "yuzni yuvmoq"
+      },
+      {
+        "en": "comb hair",
+        "uz": "soch taramoq"
+      },
+      {
+        "en": "get dressed",
+        "uz": "kiyinmoq"
+      },
+      {
+        "en": "make breakfast",
+        "uz": "nonushta tayyorlamoq"
+      },
+      {
+        "en": "leave for work",
+        "uz": "ishga jo‘namoq"
+      },
+      {
+        "en": "catch a bus",
+        "uz": "avtobusga ulgurmoq"
+      },
+      {
+        "en": "have lunch",
+        "uz": "tushlik qilmoq"
+      },
+      {
+        "en": "pick up a child",
+        "uz": "bolani olib ketmoq"
+      },
+      {
+        "en": "do housework",
+        "uz": "uy yumushlarini qilmoq"
+      },
+      {
+        "en": "take a shower",
+        "uz": "dush qabul qilmoq"
+      },
+      {
+        "en": "set an alarm",
+        "uz": "budilnik qo‘ymoq"
+      },
+      {
+        "en": "go to bed",
+        "uz": "uxlagani yotmoq"
+      },
+      {
+        "en": "fall asleep",
+        "uz": "uxlab qolmoq"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I set my alarm for half past six every weekday.",
+        "uz": "Men ish kunlari budilnikni olti yarimga qo‘yaman."
+      },
+      {
+        "en": "After dinner, we do housework together.",
+        "uz": "Kechki ovqatdan keyin uy yumushlarini birga qilamiz."
+      }
+    ]
+  },
+  {
+    "id": "kitchen-tools",
+    "en": "Kitchen utensils",
+    "uz": "Oshxona anjomlari",
+    "category": "Home",
+    "words": [
+      {
+        "en": "knife",
+        "uz": "pichoq"
+      },
+      {
+        "en": "fork",
+        "uz": "sanchqi"
+      },
+      {
+        "en": "spoon",
+        "uz": "qoshiq"
+      },
+      {
+        "en": "teaspoon",
+        "uz": "choy qoshiq"
+      },
+      {
+        "en": "plate",
+        "uz": "likopcha"
+      },
+      {
+        "en": "bowl",
+        "uz": "kosa"
+      },
+      {
+        "en": "cup",
+        "uz": "piyola"
+      },
+      {
+        "en": "drinking glass",
+        "uz": "stakan"
+      },
+      {
+        "en": "saucepan",
+        "uz": "qozoncha"
+      },
+      {
+        "en": "frying pan",
+        "uz": "tova"
+      },
+      {
+        "en": "cooking pot",
+        "uz": "qozon"
+      },
+      {
+        "en": "cutting board",
+        "uz": "taxtakach"
+      },
+      {
+        "en": "ladle",
+        "uz": "cho‘mich"
+      },
+      {
+        "en": "grater",
+        "uz": "qirg‘ich"
+      },
+      {
+        "en": "rolling pin",
+        "uz": "o‘qlov"
+      },
+      {
+        "en": "strainer",
+        "uz": "suzgich"
+      },
+      {
+        "en": "oven",
+        "uz": "duchovka"
+      },
+      {
+        "en": "microwave",
+        "uz": "mikroto‘lqinli pech"
+      },
+      {
+        "en": "baking tray",
+        "uz": "pishirish patnisi"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Use a cutting board when you slice the vegetables.",
+        "uz": "Sabzavotlarni kesayotganda taxtakachdan foydalaning."
+      },
+      {
+        "en": "The frying pan is hot, so use an oven glove.",
+        "uz": "Tova issiq, shuning uchun oshxona qo‘lqopidan foydalaning."
+      }
+    ]
+  },
+  {
+    "id": "cooking-actions",
+    "en": "Cooking actions & flavours",
+    "uz": "Pishirish usullari va ta’mlar",
+    "category": "Food",
+    "words": [
+      {
+        "en": "boil",
+        "uz": "qaynatmoq"
+      },
+      {
+        "en": "fry",
+        "uz": "qovurmoq"
+      },
+      {
+        "en": "bake",
+        "uz": "duchovkada pishirmoq"
+      },
+      {
+        "en": "steam",
+        "uz": "bug‘da pishirmoq"
+      },
+      {
+        "en": "grill",
+        "uz": "grilda pishirmoq"
+      },
+      {
+        "en": "roast",
+        "uz": "qizartirib pishirmoq"
+      },
+      {
+        "en": "chop",
+        "uz": "to‘g‘ramoq"
+      },
+      {
+        "en": "slice",
+        "uz": "tilimlamoq"
+      },
+      {
+        "en": "peel",
+        "uz": "archmoq"
+      },
+      {
+        "en": "stir",
+        "uz": "aralashtirmoq"
+      },
+      {
+        "en": "mix",
+        "uz": "qorishtirmoq"
+      },
+      {
+        "en": "pour",
+        "uz": "quymoq"
+      },
+      {
+        "en": "sprinkle",
+        "uz": "sepmoq"
+      },
+      {
+        "en": "season",
+        "uz": "ziravor solmoq"
+      },
+      {
+        "en": "sweet",
+        "uz": "shirin"
+      },
+      {
+        "en": "sour",
+        "uz": "nordon"
+      },
+      {
+        "en": "bitter",
+        "uz": "achchiq (ta’m)"
+      },
+      {
+        "en": "salty",
+        "uz": "sho‘r"
+      },
+      {
+        "en": "spicy",
+        "uz": "achchiq ziravorli"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Stir the soup gently and let it boil for ten minutes.",
+        "uz": "Sho‘rvani sekin aralashtiring va o‘n daqiqa qaynating."
+      },
+      {
+        "en": "This sauce tastes sour rather than spicy.",
+        "uz": "Bu sousning ta’mi achchiq emas, nordon."
+      }
+    ]
+  },
+  {
+    "id": "house-rooms",
+    "en": "Rooms & household areas",
+    "uz": "Xonalar va uy qismlari",
+    "category": "Home",
+    "words": [
+      {
+        "en": "living room",
+        "uz": "mehmonxona (uydagi xona)"
+      },
+      {
+        "en": "bedroom",
+        "uz": "yotoqxona"
+      },
+      {
+        "en": "kitchen",
+        "uz": "oshxona"
+      },
+      {
+        "en": "bathroom",
+        "uz": "hammom"
+      },
+      {
+        "en": "hallway",
+        "uz": "yo‘lak"
+      },
+      {
+        "en": "balcony",
+        "uz": "balkon"
+      },
+      {
+        "en": "attic",
+        "uz": "chordoq"
+      },
+      {
+        "en": "basement",
+        "uz": "yerto‘la"
+      },
+      {
+        "en": "backyard",
+        "uz": "orqa hovli"
+      },
+      {
+        "en": "front yard",
+        "uz": "old hovli"
+      },
+      {
+        "en": "garage",
+        "uz": "garaj"
+      },
+      {
+        "en": "stairs",
+        "uz": "zinapoya"
+      },
+      {
+        "en": "ceiling",
+        "uz": "shift"
+      },
+      {
+        "en": "floor",
+        "uz": "pol"
+      },
+      {
+        "en": "roof",
+        "uz": "tom"
+      },
+      {
+        "en": "fence",
+        "uz": "devor/to‘siq"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The washing machine is beside the bathroom door.",
+        "uz": "Kir yuvish mashinasi hammom eshigi yonida."
+      },
+      {
+        "en": "We keep the bicycles in the garage.",
+        "uz": "Biz velosipedlarni garajda saqlaymiz."
+      }
+    ]
+  },
+  {
+    "id": "cleaning",
+    "en": "Cleaning & laundry",
+    "uz": "Tozalash va kir yuvish",
+    "category": "Home",
+    "words": [
+      {
+        "en": "broom",
+        "uz": "supurgi"
+      },
+      {
+        "en": "mop",
+        "uz": "pol artgich"
+      },
+      {
+        "en": "bucket",
+        "uz": "chelak"
+      },
+      {
+        "en": "vacuum cleaner",
+        "uz": "changyutgich"
+      },
+      {
+        "en": "dust cloth",
+        "uz": "chang artgich mato"
+      },
+      {
+        "en": "sponge",
+        "uz": "gubka"
+      },
+      {
+        "en": "soap",
+        "uz": "sovun"
+      },
+      {
+        "en": "laundry detergent",
+        "uz": "kir yuvish vositasi"
+      },
+      {
+        "en": "fabric softener",
+        "uz": "mato yumshatgich"
+      },
+      {
+        "en": "washing machine",
+        "uz": "kir yuvish mashinasi"
+      },
+      {
+        "en": "iron",
+        "uz": "dazmol"
+      },
+      {
+        "en": "ironing board",
+        "uz": "dazmol taxtasi"
+      },
+      {
+        "en": "laundry basket",
+        "uz": "kir savati"
+      },
+      {
+        "en": "clothesline",
+        "uz": "kir arqoni"
+      },
+      {
+        "en": "hang clothes",
+        "uz": "kiyimlarni ilmoq"
+      },
+      {
+        "en": "fold clothes",
+        "uz": "kiyimlarni taxlamoq"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I put clean sheets into the laundry basket.",
+        "uz": "Men toza choyshablarni kir savatiga soldim."
+      },
+      {
+        "en": "Please fold the clothes after they are dry.",
+        "uz": "Kiyimlar qurigandan keyin ularni taxlab qo‘ying."
+      }
+    ]
+  },
+  {
+    "id": "personal-care",
+    "en": "Personal hygiene",
+    "uz": "Shaxsiy gigiyena",
+    "category": "Health",
+    "words": [
+      {
+        "en": "toothbrush",
+        "uz": "tish cho‘tkasi"
+      },
+      {
+        "en": "toothpaste",
+        "uz": "tish pastasi"
+      },
+      {
+        "en": "shampoo",
+        "uz": "shampun"
+      },
+      {
+        "en": "conditioner",
+        "uz": "soch balzami"
+      },
+      {
+        "en": "body wash",
+        "uz": "tana yuvish geli"
+      },
+      {
+        "en": "towel",
+        "uz": "sochiq"
+      },
+      {
+        "en": "comb",
+        "uz": "taroq"
+      },
+      {
+        "en": "hairbrush",
+        "uz": "soch cho‘tkasi"
+      },
+      {
+        "en": "razor",
+        "uz": "ustara"
+      },
+      {
+        "en": "nail clipper",
+        "uz": "tirnoq olgich"
+      },
+      {
+        "en": "hand sanitizer",
+        "uz": "qo‘l antiseptigi"
+      },
+      {
+        "en": "tissue",
+        "uz": "salfetka"
+      },
+      {
+        "en": "toilet paper",
+        "uz": "hojatxona qog‘ozi"
+      },
+      {
+        "en": "sunscreen",
+        "uz": "quyoshdan himoya kremi"
+      },
+      {
+        "en": "moisturizer",
+        "uz": "namlovchi krem"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Use sunscreen when the sun is very strong.",
+        "uz": "Quyosh juda kuchli bo‘lganda himoya kremidan foydalaning."
+      },
+      {
+        "en": "Do not forget to pack your toothbrush and toothpaste.",
+        "uz": "Tish cho‘tkangiz va pastangizni olishni unutmang."
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "en": "Classroom objects",
+    "uz": "Sinf xonasidagi buyumlar",
+    "category": "Study",
+    "words": [
+      {
+        "en": "textbook",
+        "uz": "darslik"
+      },
+      {
+        "en": "worksheet",
+        "uz": "topshiriq varaqasi"
+      },
+      {
+        "en": "whiteboard",
+        "uz": "oq doska"
+      },
+      {
+        "en": "marker pen",
+        "uz": "marker"
+      },
+      {
+        "en": "ruler",
+        "uz": "chizg‘ich"
+      },
+      {
+        "en": "sharpener",
+        "uz": "qalam o‘tkirlagich"
+      },
+      {
+        "en": "compass tool",
+        "uz": "sirkul"
+      },
+      {
+        "en": "protractor",
+        "uz": "transportir"
+      },
+      {
+        "en": "backpack for school",
+        "uz": "maktab sumkasi"
+      },
+      {
+        "en": "calculator",
+        "uz": "kalkulyator"
+      },
+      {
+        "en": "projector",
+        "uz": "proyektor"
+      },
+      {
+        "en": "desk",
+        "uz": "parta"
+      },
+      {
+        "en": "classmate",
+        "uz": "sinfdosh"
+      },
+      {
+        "en": "principal",
+        "uz": "maktab direktori"
+      },
+      {
+        "en": "attendance",
+        "uz": "davomat"
+      },
+      {
+        "en": "grades",
+        "uz": "baholar"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Write the new vocabulary in your textbook margin.",
+        "uz": "Yangi so‘zlarni darslikning chetiga yozing."
+      },
+      {
+        "en": "Our teacher uses the projector to show a short video.",
+        "uz": "O‘qituvchimiz qisqa video ko‘rsatish uchun proyektordan foydalanadi."
+      }
+    ]
+  },
+  {
+    "id": "digital-life",
+    "en": "Internet & digital life",
+    "uz": "Internet va raqamli hayot",
+    "category": "Study",
+    "words": [
+      {
+        "en": "smartphone",
+        "uz": "smartfon"
+      },
+      {
+        "en": "tablet device",
+        "uz": "planshet"
+      },
+      {
+        "en": "laptop",
+        "uz": "noutbuk"
+      },
+      {
+        "en": "computer mouse",
+        "uz": "sichqoncha"
+      },
+      {
+        "en": "touchscreen",
+        "uz": "sensorli ekran"
+      },
+      {
+        "en": "headphones",
+        "uz": "quloqchinlar"
+      },
+      {
+        "en": "microphone",
+        "uz": "mikrofon"
+      },
+      {
+        "en": "camera",
+        "uz": "kamera"
+      },
+      {
+        "en": "internet connection",
+        "uz": "internet aloqasi"
+      },
+      {
+        "en": "Wi-Fi network",
+        "uz": "Wi-Fi tarmog‘i"
+      },
+      {
+        "en": "email address",
+        "uz": "elektron pochta manzili"
+      },
+      {
+        "en": "attachment",
+        "uz": "ilova qilingan fayl"
+      },
+      {
+        "en": "browser",
+        "uz": "brauzer"
+      },
+      {
+        "en": "search engine",
+        "uz": "qidiruv tizimi"
+      },
+      {
+        "en": "video call",
+        "uz": "videoqo‘ng‘iroq"
+      },
+      {
+        "en": "notification",
+        "uz": "bildirishnoma"
+      },
+      {
+        "en": "update software",
+        "uz": "dasturni yangilamoq"
+      },
+      {
+        "en": "backup copy",
+        "uz": "zaxira nusxa"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Please send the attachment to my email address.",
+        "uz": "Iltimos, faylni elektron pochta manzilimga yuboring."
+      },
+      {
+        "en": "Restart the router if the internet connection is weak.",
+        "uz": "Internet aloqasi sust bo‘lsa, routerni qayta yoqing."
+      }
+    ]
+  },
+  {
+    "id": "sports",
+    "en": "Sports & exercise",
+    "uz": "Sport va mashqlar",
+    "category": "Lifestyle",
+    "words": [
+      {
+        "en": "football",
+        "uz": "futbol"
+      },
+      {
+        "en": "basketball",
+        "uz": "basketbol"
+      },
+      {
+        "en": "volleyball",
+        "uz": "voleybol"
+      },
+      {
+        "en": "tennis",
+        "uz": "tennis"
+      },
+      {
+        "en": "badminton",
+        "uz": "badminton"
+      },
+      {
+        "en": "swimming",
+        "uz": "suzish"
+      },
+      {
+        "en": "jogging",
+        "uz": "sekin yugurish"
+      },
+      {
+        "en": "hiking",
+        "uz": "piyoda sayr"
+      },
+      {
+        "en": "cycling",
+        "uz": "velosiped haydash"
+      },
+      {
+        "en": "stretching",
+        "uz": "cho‘zilish mashqi"
+      },
+      {
+        "en": "warm-up",
+        "uz": "qizish mashqi"
+      },
+      {
+        "en": "cool-down",
+        "uz": "mashqdan keyin tinchlanish"
+      },
+      {
+        "en": "score in a game",
+        "uz": "o‘yin hisobi"
+      },
+      {
+        "en": "referee",
+        "uz": "hakam"
+      },
+      {
+        "en": "teammate",
+        "uz": "jamoadosh"
+      },
+      {
+        "en": "opponent",
+        "uz": "raqib"
+      },
+      {
+        "en": "stadium track",
+        "uz": "stadion yugurish yo‘lagi"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Always do a warm-up before playing volleyball.",
+        "uz": "Voleybol o‘ynashdan oldin doimo qizish mashqini bajaring."
+      },
+      {
+        "en": "Our teammate scored the winning goal in the final minute.",
+        "uz": "Jamoadoshimiz oxirgi daqiqada g‘alaba golini urdi."
+      }
+    ]
+  },
+  {
+    "id": "hobbies",
+    "en": "Hobbies & leisure",
+    "uz": "Qiziqishlar va bo‘sh vaqt",
+    "category": "Lifestyle",
+    "words": [
+      {
+        "en": "painting",
+        "uz": "rasm chizish"
+      },
+      {
+        "en": "sketching",
+        "uz": "qoralama rasm chizish"
+      },
+      {
+        "en": "photography",
+        "uz": "fotografiya"
+      },
+      {
+        "en": "gardening",
+        "uz": "bog‘dorchilik"
+      },
+      {
+        "en": "knitting",
+        "uz": "to‘qish"
+      },
+      {
+        "en": "sewing",
+        "uz": "tikish"
+      },
+      {
+        "en": "woodworking",
+        "uz": "yog‘ochsozlik"
+      },
+      {
+        "en": "fishing",
+        "uz": "baliq ovlash"
+      },
+      {
+        "en": "camping",
+        "uz": "chodirli dam olish"
+      },
+      {
+        "en": "board game",
+        "uz": "stol o‘yini"
+      },
+      {
+        "en": "chess",
+        "uz": "shaxmat"
+      },
+      {
+        "en": "puzzle",
+        "uz": "boshqotirma"
+      },
+      {
+        "en": "collecting stamps",
+        "uz": "marka yig‘ish"
+      },
+      {
+        "en": "reading novels",
+        "uz": "roman o‘qish"
+      },
+      {
+        "en": "watching films",
+        "uz": "film tomosha qilish"
+      }
+    ],
+    "examples": [
+      {
+        "en": "My favourite hobby is photography in the mountains.",
+        "uz": "Mening sevimli mashg‘ulotim tog‘larda suratga olish."
+      },
+      {
+        "en": "On rainy days we sometimes play chess at home.",
+        "uz": "Yomg‘irli kunlarda ba’zan uyda shaxmat o‘ynaymiz."
+      }
+    ]
+  },
+  {
+    "id": "music-art",
+    "en": "Music & the arts",
+    "uz": "Musiqa va san’at",
+    "category": "Lifestyle",
+    "words": [
+      {
+        "en": "song",
+        "uz": "qo‘shiq"
+      },
+      {
+        "en": "singer",
+        "uz": "qo‘shiqchi"
+      },
+      {
+        "en": "musician",
+        "uz": "musiqachi"
+      },
+      {
+        "en": "instrument",
+        "uz": "cholg‘u asbobi"
+      },
+      {
+        "en": "guitar",
+        "uz": "gitara"
+      },
+      {
+        "en": "piano",
+        "uz": "pianino"
+      },
+      {
+        "en": "violin",
+        "uz": "skripka"
+      },
+      {
+        "en": "drum",
+        "uz": "baraban"
+      },
+      {
+        "en": "flute",
+        "uz": "nay"
+      },
+      {
+        "en": "melody",
+        "uz": "kuy"
+      },
+      {
+        "en": "rhythm",
+        "uz": "ritm"
+      },
+      {
+        "en": "choir",
+        "uz": "xor"
+      },
+      {
+        "en": "concert",
+        "uz": "konsert"
+      },
+      {
+        "en": "exhibition",
+        "uz": "ko‘rgazma"
+      },
+      {
+        "en": "sculpture",
+        "uz": "haykal"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The singer performed a traditional melody at the concert.",
+        "uz": "Qo‘shiqchi konsertda an’anaviy kuy ijro etdi."
+      },
+      {
+        "en": "A violin can produce both soft and powerful sounds.",
+        "uz": "Skripka ham mayin, ham kuchli tovush chiqarishi mumkin."
+      }
+    ]
+  },
+  {
+    "id": "banking",
+    "en": "Banking & payments",
+    "uz": "Bank va to‘lovlar",
+    "category": "Practical",
+    "words": [
+      {
+        "en": "bank account",
+        "uz": "bank hisobvarag‘i"
+      },
+      {
+        "en": "bank card",
+        "uz": "bank kartasi"
+      },
+      {
+        "en": "cash",
+        "uz": "naqd pul"
+      },
+      {
+        "en": "coin",
+        "uz": "tanga"
+      },
+      {
+        "en": "banknote",
+        "uz": "qog‘oz pul"
+      },
+      {
+        "en": "balance",
+        "uz": "hisobdagi qoldiq"
+      },
+      {
+        "en": "transfer money",
+        "uz": "pul o‘tkazmoq"
+      },
+      {
+        "en": "withdraw cash",
+        "uz": "naqd pul yechmoq"
+      },
+      {
+        "en": "deposit money",
+        "uz": "pul qo‘ymoq"
+      },
+      {
+        "en": "exchange rate",
+        "uz": "valyuta kursi"
+      },
+      {
+        "en": "currency",
+        "uz": "valyuta"
+      },
+      {
+        "en": "commission fee",
+        "uz": "komissiya to‘lovi"
+      },
+      {
+        "en": "PIN code",
+        "uz": "PIN-kod"
+      },
+      {
+        "en": "ATM machine",
+        "uz": "bankomat"
+      },
+      {
+        "en": "mobile banking",
+        "uz": "mobil banking"
+      },
+      {
+        "en": "transaction",
+        "uz": "tranzaksiya"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Check the exchange rate before converting your money.",
+        "uz": "Pulni almashtirishdan oldin valyuta kursini tekshiring."
+      },
+      {
+        "en": "The ATM charged a small commission fee.",
+        "uz": "Bankomat kichik komissiya to‘lovi oldi."
+      }
+    ]
+  },
+  {
+    "id": "office",
+    "en": "Office & meetings",
+    "uz": "Ofis va uchrashuvlar",
+    "category": "Practical",
+    "words": [
+      {
+        "en": "agenda",
+        "uz": "kun tartibi"
+      },
+      {
+        "en": "deadline",
+        "uz": "oxirgi muddat"
+      },
+      {
+        "en": "presentation",
+        "uz": "taqdimot"
+      },
+      {
+        "en": "conference room",
+        "uz": "majlislar xonasi"
+      },
+      {
+        "en": "colleague",
+        "uz": "hamkasb"
+      },
+      {
+        "en": "supervisor",
+        "uz": "rahbar"
+      },
+      {
+        "en": "client",
+        "uz": "mijoz"
+      },
+      {
+        "en": "report",
+        "uz": "hisobot"
+      },
+      {
+        "en": "contract",
+        "uz": "shartnoma"
+      },
+      {
+        "en": "invoice",
+        "uz": "hisob-faktura"
+      },
+      {
+        "en": "signature",
+        "uz": "imzo"
+      },
+      {
+        "en": "file folder",
+        "uz": "papka"
+      },
+      {
+        "en": "printer",
+        "uz": "printer"
+      },
+      {
+        "en": "photocopier",
+        "uz": "nusxa ko‘chirish qurilmasi"
+      },
+      {
+        "en": "stapler",
+        "uz": "stepler"
+      },
+      {
+        "en": "paperclip",
+        "uz": "qog‘oz qisqichi"
+      },
+      {
+        "en": "appointment calendar",
+        "uz": "uchrashuv taqvimi"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Our supervisor changed the meeting agenda this morning.",
+        "uz": "Rahbarimiz bugun ertalab yig‘ilish kun tartibini o‘zgartirdi."
+      },
+      {
+        "en": "Please attach the invoice before the deadline.",
+        "uz": "Iltimos, hisob-fakturani oxirgi muddatdan oldin ilova qiling."
+      }
+    ]
+  },
+  {
+    "id": "documents",
+    "en": "Documents & public services",
+    "uz": "Hujjatlar va davlat xizmatlari",
+    "category": "Practical",
+    "words": [
+      {
+        "en": "identity card",
+        "uz": "shaxsni tasdiqlovchi karta"
+      },
+      {
+        "en": "birth certificate",
+        "uz": "tug‘ilganlik guvohnomasi"
+      },
+      {
+        "en": "marriage certificate",
+        "uz": "nikoh guvohnomasi"
+      },
+      {
+        "en": "driver licence",
+        "uz": "haydovchilik guvohnomasi"
+      },
+      {
+        "en": "application form",
+        "uz": "ariza shakli"
+      },
+      {
+        "en": "registration",
+        "uz": "ro‘yxatdan o‘tish"
+      },
+      {
+        "en": "residence permit",
+        "uz": "yashash ruxsatnomasi"
+      },
+      {
+        "en": "visa",
+        "uz": "viza"
+      },
+      {
+        "en": "embassy",
+        "uz": "elchixona"
+      },
+      {
+        "en": "consulate",
+        "uz": "konsullik"
+      },
+      {
+        "en": "notary",
+        "uz": "notarius"
+      },
+      {
+        "en": "certificate",
+        "uz": "guvohnoma"
+      },
+      {
+        "en": "original document",
+        "uz": "hujjatning asl nusxasi"
+      },
+      {
+        "en": "photocopy",
+        "uz": "fotokopiya"
+      },
+      {
+        "en": "queue",
+        "uz": "navbat"
+      },
+      {
+        "en": "service desk",
+        "uz": "xizmat ko‘rsatish oynasi"
+      }
+    ],
+    "examples": [
+      {
+        "en": "You need an original document and one photocopy.",
+        "uz": "Sizga hujjatning asli va bitta nusxasi kerak."
+      },
+      {
+        "en": "Please take a number and wait in the queue.",
+        "uz": "Iltimos, navbat raqamini olib kuting."
+      }
+    ]
+  },
+  {
+    "id": "hotels",
+    "en": "Hotels & accommodation",
+    "uz": "Mehmonxonalar va turar joy",
+    "category": "Travel",
+    "words": [
+      {
+        "en": "reception desk",
+        "uz": "qabulxona"
+      },
+      {
+        "en": "check-in",
+        "uz": "ro‘yxatdan o‘tish (kelganda)"
+      },
+      {
+        "en": "check-out",
+        "uz": "mehmonxonadan chiqishni rasmiylashtirish"
+      },
+      {
+        "en": "room key",
+        "uz": "xona kaliti"
+      },
+      {
+        "en": "double room",
+        "uz": "ikki kishilik xona"
+      },
+      {
+        "en": "single room",
+        "uz": "bir kishilik xona"
+      },
+      {
+        "en": "room service",
+        "uz": "xonaga xizmat"
+      },
+      {
+        "en": "breakfast included",
+        "uz": "nonushta narxga kiritilgan"
+      },
+      {
+        "en": "luggage",
+        "uz": "yuk"
+      },
+      {
+        "en": "suitcase",
+        "uz": "chamadon"
+      },
+      {
+        "en": "lift elevator",
+        "uz": "lift"
+      },
+      {
+        "en": "floor number",
+        "uz": "qavat raqami"
+      },
+      {
+        "en": "reservation number",
+        "uz": "bron raqami"
+      },
+      {
+        "en": "available room",
+        "uz": "bo‘sh xona"
+      },
+      {
+        "en": "late arrival",
+        "uz": "kech kelish"
+      },
+      {
+        "en": "wake-up call",
+        "uz": "uyg‘otish qo‘ng‘irog‘i"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I booked a single room with breakfast included.",
+        "uz": "Men nonushtasi narxga kiritilgan bir kishilik xona bron qildim."
+      },
+      {
+        "en": "Please call reception if you lose your room key.",
+        "uz": "Xona kalitini yo‘qotsangiz, qabulxonaga qo‘ng‘iroq qiling."
+      }
+    ]
+  },
+  {
+    "id": "public-transport",
+    "en": "Public transport details",
+    "uz": "Jamoat transporti",
+    "category": "Travel",
+    "words": [
+      {
+        "en": "fare",
+        "uz": "yo‘l haqi"
+      },
+      {
+        "en": "route",
+        "uz": "yo‘nalish"
+      },
+      {
+        "en": "platform",
+        "uz": "platforma"
+      },
+      {
+        "en": "schedule",
+        "uz": "jadval"
+      },
+      {
+        "en": "departure",
+        "uz": "jo‘nash"
+      },
+      {
+        "en": "arrival",
+        "uz": "yetib kelish"
+      },
+      {
+        "en": "transfer station",
+        "uz": "almashish bekati"
+      },
+      {
+        "en": "passenger",
+        "uz": "yo‘lovchi"
+      },
+      {
+        "en": "seat belt",
+        "uz": "xavfsizlik kamari"
+      },
+      {
+        "en": "timetable",
+        "uz": "qatnov jadvali"
+      },
+      {
+        "en": "conductor",
+        "uz": "konduktor"
+      },
+      {
+        "en": "rush hour",
+        "uz": "tirband vaqt"
+      },
+      {
+        "en": "one-way ticket",
+        "uz": "bir tomonga chipta"
+      },
+      {
+        "en": "return ticket",
+        "uz": "borish-qaytish chiptasi"
+      },
+      {
+        "en": "bus lane",
+        "uz": "avtobus yo‘lagi"
+      },
+      {
+        "en": "pedestrian crossing",
+        "uz": "piyodalar o‘tish joyi"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The train leaves from platform three at half past eight.",
+        "uz": "Poyezd uchinchi platformadan soat sakkiz yarimda jo‘naydi."
+      },
+      {
+        "en": "During rush hour the buses are usually crowded.",
+        "uz": "Tirband vaqtda avtobuslar odatda gavjum bo‘ladi."
+      }
+    ]
+  },
+  {
+    "id": "medicine",
+    "en": "Medical care & pharmacy",
+    "uz": "Tibbiy yordam va dorixona",
+    "category": "Health",
+    "words": [
+      {
+        "en": "prescription",
+        "uz": "retsept"
+      },
+      {
+        "en": "tablet medicine",
+        "uz": "tabletka"
+      },
+      {
+        "en": "capsule",
+        "uz": "kapsula"
+      },
+      {
+        "en": "syrup medicine",
+        "uz": "sirop"
+      },
+      {
+        "en": "ointment",
+        "uz": "surtma"
+      },
+      {
+        "en": "bandage",
+        "uz": "bint"
+      },
+      {
+        "en": "plaster",
+        "uz": "plastir"
+      },
+      {
+        "en": "thermometer",
+        "uz": "termometr"
+      },
+      {
+        "en": "cough",
+        "uz": "yo‘tal"
+      },
+      {
+        "en": "sore throat",
+        "uz": "tomoq og‘rig‘i"
+      },
+      {
+        "en": "runny nose",
+        "uz": "burun oqishi"
+      },
+      {
+        "en": "sneeze",
+        "uz": "aksirmoq"
+      },
+      {
+        "en": "dizziness",
+        "uz": "bosh aylanishi"
+      },
+      {
+        "en": "nausea",
+        "uz": "ko‘ngil aynishi"
+      },
+      {
+        "en": "allergy",
+        "uz": "allergiya"
+      },
+      {
+        "en": "clinic",
+        "uz": "poliklinika"
+      },
+      {
+        "en": "blood test",
+        "uz": "qon tahlili"
+      },
+      {
+        "en": "blood pressure",
+        "uz": "qon bosimi"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The doctor gave me a prescription for the pharmacy.",
+        "uz": "Shifokor menga dorixona uchun retsept berdi."
+      },
+      {
+        "en": "Tell the nurse if you feel dizzy after the test.",
+        "uz": "Tahlildan keyin boshingiz aylansa, hamshiraga ayting."
+      }
+    ]
+  },
+  {
+    "id": "nature",
+    "en": "Nature & landscapes",
+    "uz": "Tabiat va manzaralar",
+    "category": "Nature",
+    "words": [
+      {
+        "en": "hill",
+        "uz": "tepalik"
+      },
+      {
+        "en": "valley",
+        "uz": "vodiy"
+      },
+      {
+        "en": "waterfall",
+        "uz": "sharshara"
+      },
+      {
+        "en": "stream",
+        "uz": "soy"
+      },
+      {
+        "en": "field",
+        "uz": "dala"
+      },
+      {
+        "en": "meadow",
+        "uz": "o‘tloq"
+      },
+      {
+        "en": "island",
+        "uz": "orol"
+      },
+      {
+        "en": "coast",
+        "uz": "sohil"
+      },
+      {
+        "en": "beach",
+        "uz": "plyaj"
+      },
+      {
+        "en": "cliff",
+        "uz": "tik qoya"
+      },
+      {
+        "en": "cave",
+        "uz": "g‘or"
+      },
+      {
+        "en": "volcano",
+        "uz": "vulqon"
+      },
+      {
+        "en": "glacier",
+        "uz": "muzlik"
+      },
+      {
+        "en": "canyon",
+        "uz": "kanyon"
+      },
+      {
+        "en": "water spring",
+        "uz": "buloq"
+      },
+      {
+        "en": "soil",
+        "uz": "tuproq"
+      },
+      {
+        "en": "pebble",
+        "uz": "mayda tosh"
+      }
+    ],
+    "examples": [
+      {
+        "en": "A clear stream runs through the green valley.",
+        "uz": "Yashil vodiydan tiniq soy oqib o‘tadi."
+      },
+      {
+        "en": "The hikers reached a waterfall after two hours.",
+        "uz": "Sayyohlar ikki soatdan keyin sharsharaga yetib bordi."
+      }
+    ]
+  },
+  {
+    "id": "plants",
+    "en": "Plants & gardening",
+    "uz": "O‘simliklar va bog‘dorchilik",
+    "category": "Nature",
+    "words": [
+      {
+        "en": "flower",
+        "uz": "gul"
+      },
+      {
+        "en": "rose",
+        "uz": "atirgul"
+      },
+      {
+        "en": "tulip",
+        "uz": "lola"
+      },
+      {
+        "en": "daisy",
+        "uz": "moychechak"
+      },
+      {
+        "en": "dandelion",
+        "uz": "momaqaymoq"
+      },
+      {
+        "en": "sunflower",
+        "uz": "kungaboqar"
+      },
+      {
+        "en": "leaf",
+        "uz": "barg"
+      },
+      {
+        "en": "branch",
+        "uz": "shox"
+      },
+      {
+        "en": "root",
+        "uz": "ildiz"
+      },
+      {
+        "en": "seed",
+        "uz": "urug‘"
+      },
+      {
+        "en": "seedling",
+        "uz": "ko‘chat"
+      },
+      {
+        "en": "stem",
+        "uz": "poya"
+      },
+      {
+        "en": "thorn",
+        "uz": "tikan"
+      },
+      {
+        "en": "tree bark",
+        "uz": "daraxt po‘stlog‘i"
+      },
+      {
+        "en": "watering can",
+        "uz": "sug‘orgich"
+      },
+      {
+        "en": "fertilizer",
+        "uz": "o‘g‘it"
+      },
+      {
+        "en": "harvest",
+        "uz": "hosil"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Plant the seedling in soft soil and water it gently.",
+        "uz": "Ko‘chatni yumshoq tuproqqa eking va ehtiyotkorlik bilan sug‘oring."
+      },
+      {
+        "en": "The tulips bloom in the garden every spring.",
+        "uz": "Lolalar har bahor bog‘da gullaydi."
+      }
+    ]
+  },
+  {
+    "id": "shapes",
+    "en": "Shapes & descriptions",
+    "uz": "Shakllar va ta’riflar",
+    "category": "Descriptions",
+    "words": [
+      {
+        "en": "circle",
+        "uz": "doira"
+      },
+      {
+        "en": "square shape",
+        "uz": "kvadrat"
+      },
+      {
+        "en": "triangle",
+        "uz": "uchburchak"
+      },
+      {
+        "en": "rectangle",
+        "uz": "to‘g‘ri to‘rtburchak"
+      },
+      {
+        "en": "oval",
+        "uz": "oval"
+      },
+      {
+        "en": "star shape",
+        "uz": "yulduz shakli"
+      },
+      {
+        "en": "cube",
+        "uz": "kub"
+      },
+      {
+        "en": "sphere",
+        "uz": "shar"
+      },
+      {
+        "en": "straight",
+        "uz": "to‘g‘ri"
+      },
+      {
+        "en": "curved",
+        "uz": "egri"
+      },
+      {
+        "en": "round",
+        "uz": "dumaloq"
+      },
+      {
+        "en": "flat",
+        "uz": "tekis"
+      },
+      {
+        "en": "sharp",
+        "uz": "o‘tkir"
+      },
+      {
+        "en": "smooth",
+        "uz": "silliq"
+      },
+      {
+        "en": "rough",
+        "uz": "g‘adir-budur"
+      },
+      {
+        "en": "thick",
+        "uz": "qalin"
+      },
+      {
+        "en": "thin",
+        "uz": "yupqa"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Draw a circle inside the large rectangle.",
+        "uz": "Katta to‘g‘ri to‘rtburchak ichiga doira chizing."
+      },
+      {
+        "en": "The stone has a smooth, oval surface.",
+        "uz": "Toshning yuzasi silliq va oval shaklda."
+      }
+    ]
+  },
+  {
+    "id": "measurements",
+    "en": "Measurements & quantities",
+    "uz": "O‘lchovlar va miqdorlar",
+    "category": "Descriptions",
+    "words": [
+      {
+        "en": "centimetre",
+        "uz": "santimetr"
+      },
+      {
+        "en": "metre",
+        "uz": "metr"
+      },
+      {
+        "en": "kilometre",
+        "uz": "kilometr"
+      },
+      {
+        "en": "millimetre",
+        "uz": "millimetr"
+      },
+      {
+        "en": "gram",
+        "uz": "gramm"
+      },
+      {
+        "en": "kilogram",
+        "uz": "kilogramm"
+      },
+      {
+        "en": "litre",
+        "uz": "litr"
+      },
+      {
+        "en": "millilitre",
+        "uz": "millilitr"
+      },
+      {
+        "en": "half",
+        "uz": "yarim"
+      },
+      {
+        "en": "quarter",
+        "uz": "chorak"
+      },
+      {
+        "en": "dozen",
+        "uz": "o‘n ikki dona"
+      },
+      {
+        "en": "pair",
+        "uz": "juft"
+      },
+      {
+        "en": "portion",
+        "uz": "porsiya"
+      },
+      {
+        "en": "handful",
+        "uz": "bir hovuch"
+      },
+      {
+        "en": "pinch",
+        "uz": "chimdim"
+      },
+      {
+        "en": "weigh",
+        "uz": "tortmoq"
+      },
+      {
+        "en": "measure",
+        "uz": "o‘lchamoq"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The recipe needs half a litre of milk.",
+        "uz": "Retsept uchun yarim litr sut kerak."
+      },
+      {
+        "en": "Could you weigh two kilograms of potatoes?",
+        "uz": "Ikki kilogramm kartoshkani tortib bera olasizmi?"
+      }
+    ]
+  },
+  {
+    "id": "emotions",
+    "en": "Emotions & reactions",
+    "uz": "Hissiyotlar va munosabatlar",
+    "category": "Daily life",
+    "words": [
+      {
+        "en": "relieved",
+        "uz": "yengil tortgan"
+      },
+      {
+        "en": "surprised",
+        "uz": "hayron qolgan"
+      },
+      {
+        "en": "disappointed",
+        "uz": "hafsalasi pir bo‘lgan"
+      },
+      {
+        "en": "embarrassed",
+        "uz": "xijolat bo‘lgan"
+      },
+      {
+        "en": "lonely",
+        "uz": "yolg‘iz"
+      },
+      {
+        "en": "hopeful",
+        "uz": "umidvor"
+      },
+      {
+        "en": "nervous",
+        "uz": "asabiylashgan"
+      },
+      {
+        "en": "frustrated",
+        "uz": "ranjigan"
+      },
+      {
+        "en": "peaceful",
+        "uz": "osoyishta"
+      },
+      {
+        "en": "jealous",
+        "uz": "rashkchi"
+      },
+      {
+        "en": "upset",
+        "uz": "xafa"
+      },
+      {
+        "en": "cheerful",
+        "uz": "quvnoq"
+      },
+      {
+        "en": "bored",
+        "uz": "zerikkan"
+      },
+      {
+        "en": "motivated",
+        "uz": "rag‘batlangan"
+      },
+      {
+        "en": "satisfied",
+        "uz": "mamnun"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I felt relieved when the exam results arrived.",
+        "uz": "Imtihon natijalari kelganda yengil tortdim."
+      },
+      {
+        "en": "She was disappointed because the event was cancelled.",
+        "uz": "Tadbir bekor qilingani uchun uning hafsalasi pir bo‘ldi."
+      }
+    ]
+  },
+  {
+    "id": "social-life",
+    "en": "Friends & social life",
+    "uz": "Do‘stlar va muloqot",
+    "category": "Daily life",
+    "words": [
+      {
+        "en": "friendship",
+        "uz": "do‘stlik"
+      },
+      {
+        "en": "neighbour",
+        "uz": "qo‘shni"
+      },
+      {
+        "en": "relative",
+        "uz": "qarindosh"
+      },
+      {
+        "en": "acquaintance",
+        "uz": "tanish"
+      },
+      {
+        "en": "invitation",
+        "uz": "taklifnoma"
+      },
+      {
+        "en": "guest",
+        "uz": "mehmon"
+      },
+      {
+        "en": "host of event",
+        "uz": "mezbon"
+      },
+      {
+        "en": "celebration",
+        "uz": "bayram tadbiri"
+      },
+      {
+        "en": "birthday",
+        "uz": "tug‘ilgan kun"
+      },
+      {
+        "en": "wedding",
+        "uz": "to‘y"
+      },
+      {
+        "en": "anniversary",
+        "uz": "yillik sana"
+      },
+      {
+        "en": "reunion",
+        "uz": "qayta uchrashuv"
+      },
+      {
+        "en": "conversation",
+        "uz": "suhbat"
+      },
+      {
+        "en": "compliment",
+        "uz": "maqtov"
+      },
+      {
+        "en": "apology",
+        "uz": "uzr"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Our neighbours invited us to a birthday celebration.",
+        "uz": "Qo‘shnilarimiz bizni tug‘ilgan kun bayramiga taklif qilishdi."
+      },
+      {
+        "en": "A sincere apology can help repair a friendship.",
+        "uz": "Samimiy uzr do‘stlikni tiklashga yordam berishi mumkin."
+      }
+    ]
+  },
+  {
+    "id": "weather-phrases",
+    "en": "Weather descriptions",
+    "uz": "Ob-havo haqida gapirish",
+    "category": "Nature",
+    "words": [
+      {
+        "en": "heatwave",
+        "uz": "jazirama issiq"
+      },
+      {
+        "en": "drought",
+        "uz": "qurg‘oqchilik"
+      },
+      {
+        "en": "frost",
+        "uz": "qirov"
+      },
+      {
+        "en": "hail",
+        "uz": "do‘l"
+      },
+      {
+        "en": "drizzle",
+        "uz": "mayda yomg‘ir"
+      },
+      {
+        "en": "thunder",
+        "uz": "momaqaldiroq"
+      },
+      {
+        "en": "lightning",
+        "uz": "chaqmoq"
+      },
+      {
+        "en": "humid",
+        "uz": "nam"
+      },
+      {
+        "en": "mild",
+        "uz": "mo‘tadil"
+      },
+      {
+        "en": "chilly",
+        "uz": "salqin"
+      },
+      {
+        "en": "freezing",
+        "uz": "juda sovuq"
+      },
+      {
+        "en": "sunny",
+        "uz": "quyoshli"
+      },
+      {
+        "en": "cloudy",
+        "uz": "bulutli"
+      },
+      {
+        "en": "windy",
+        "uz": "shamolli"
+      },
+      {
+        "en": "rainy",
+        "uz": "yomg‘irli"
+      }
+    ],
+    "examples": [
+      {
+        "en": "It is chilly this morning, so wear a warm coat.",
+        "uz": "Bugun ertalab salqin, shuning uchun issiq palto kiying."
+      },
+      {
+        "en": "The forecast says we may get hail after the storm.",
+        "uz": "Prognozga ko‘ra bo‘rondan keyin do‘l yog‘ishi mumkin."
+      }
+    ]
+  },
+  {
+    "id": "emergencies",
+    "en": "Emergencies & safety",
+    "uz": "Favqulodda holatlar va xavfsizlik",
+    "category": "Practical",
+    "words": [
+      {
+        "en": "fire alarm",
+        "uz": "yong‘in signalizatsiyasi"
+      },
+      {
+        "en": "fire extinguisher",
+        "uz": "o‘t o‘chirgich"
+      },
+      {
+        "en": "first aid",
+        "uz": "birinchi yordam"
+      },
+      {
+        "en": "emergency exit",
+        "uz": "favqulodda chiqish"
+      },
+      {
+        "en": "seat belt buckle",
+        "uz": "xavfsizlik kamari qulfi"
+      },
+      {
+        "en": "hazard",
+        "uz": "xavf"
+      },
+      {
+        "en": "warning sign",
+        "uz": "ogohlantiruvchi belgi"
+      },
+      {
+        "en": "accident",
+        "uz": "baxtsiz hodisa"
+      },
+      {
+        "en": "injury",
+        "uz": "jarohat"
+      },
+      {
+        "en": "rescue",
+        "uz": "qutqaruv"
+      },
+      {
+        "en": "emergency number",
+        "uz": "tezkor xizmat raqami"
+      },
+      {
+        "en": "safe shelter",
+        "uz": "xavfsiz boshpana"
+      },
+      {
+        "en": "evacuation",
+        "uz": "evakuatsiya"
+      },
+      {
+        "en": "flashlight",
+        "uz": "fonar"
+      },
+      {
+        "en": "power outage",
+        "uz": "elektr uzilishi"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Follow the emergency exit signs and leave calmly.",
+        "uz": "Favqulodda chiqish belgilariga amal qiling va xotirjam chiqing."
+      },
+      {
+        "en": "Keep a flashlight ready in case of a power outage.",
+        "uz": "Elektr uzilib qolsa deb fonarni tayyor tuting."
+      }
+    ]
+  },
+  {
+    "id": "uzbek-life",
+    "en": "Life in Uzbekistan",
+    "uz": "O‘zbekistondagi kundalik hayot",
+    "category": "Uzbekistan",
+    "words": [
+      {
+        "en": "mahalla neighbourhood",
+        "uz": "mahalla"
+      },
+      {
+        "en": "bazaar stall",
+        "uz": "bozor rastasi"
+      },
+      {
+        "en": "shared taxi",
+        "uz": "yo‘nalishli taksi"
+      },
+      {
+        "en": "public minibus",
+        "uz": "marshrutka"
+      },
+      {
+        "en": "tea house",
+        "uz": "choyxona"
+      },
+      {
+        "en": "plov",
+        "uz": "osh (palov)"
+      },
+      {
+        "en": "samsa pastry",
+        "uz": "somsa"
+      },
+      {
+        "en": "flatbread",
+        "uz": "non (tandir non)"
+      },
+      {
+        "en": "dried apricots",
+        "uz": "turshak"
+      },
+      {
+        "en": "raisins",
+        "uz": "mayiz"
+      },
+      {
+        "en": "traditional robe",
+        "uz": "chopon"
+      },
+      {
+        "en": "skullcap",
+        "uz": "do‘ppi"
+      },
+      {
+        "en": "national holiday",
+        "uz": "milliy bayram"
+      },
+      {
+        "en": "family gathering",
+        "uz": "oilaviy yig‘ilish"
+      },
+      {
+        "en": "wedding hall",
+        "uz": "to‘yxona"
+      },
+      {
+        "en": "local currency",
+        "uz": "mahalliy valyuta"
+      }
+    ],
+    "examples": [
+      {
+        "en": "We stopped at the bazaar stall to buy raisins.",
+        "uz": "Biz mayiz sotib olish uchun bozor rastasida to‘xtadik."
+      },
+      {
+        "en": "Our family enjoyed plov at the wedding hall.",
+        "uz": "Oilamiz to‘yxonada osh yedi."
+      }
+    ]
+  },
+  {
+    "id": "restaurant",
+    "en": "Restaurant & café",
+    "uz": "Restoran va kafe",
+    "category": "Practical",
+    "words": [
+      {
+        "en": "menu",
+        "uz": "taomnoma"
+      },
+      {
+        "en": "waiter",
+        "uz": "ofitsiant"
+      },
+      {
+        "en": "waitress",
+        "uz": "ofitsiant ayol"
+      },
+      {
+        "en": "bill at restaurant",
+        "uz": "hisob (restoranda)"
+      },
+      {
+        "en": "tip",
+        "uz": "choychaqa"
+      },
+      {
+        "en": "starter dish",
+        "uz": "yengil taom"
+      },
+      {
+        "en": "main course",
+        "uz": "asosiy taom"
+      },
+      {
+        "en": "side dish",
+        "uz": "garnir"
+      },
+      {
+        "en": "dessert",
+        "uz": "shirinlik"
+      },
+      {
+        "en": "vegetarian",
+        "uz": "vegetarian"
+      },
+      {
+        "en": "reservation for table",
+        "uz": "stolni bron qilish"
+      },
+      {
+        "en": "takeaway",
+        "uz": "olib ketish uchun taom"
+      },
+      {
+        "en": "table for two",
+        "uz": "ikki kishilik stol"
+      },
+      {
+        "en": "order food",
+        "uz": "ovqat buyurtma qilish"
+      },
+      {
+        "en": "customer",
+        "uz": "xaridor"
+      },
+      {
+        "en": "chef",
+        "uz": "oshpaz"
+      }
+    ],
+    "examples": [
+      {
+        "en": "We ordered the main course and a side dish.",
+        "uz": "Biz asosiy taom va garnir buyurtma qildik."
+      },
+      {
+        "en": "Could we have the bill and two cups of tea, please?",
+        "uz": "Iltimos, hisobni va ikki piyola choyni keltira olasizmi?"
+      }
+    ]
+  },
+  {
+    "id": "jobs",
+    "en": "Jobs & recruitment",
+    "uz": "Ish va ishga kirish",
+    "category": "Practical",
+    "words": [
+      {
+        "en": "job vacancy",
+        "uz": "bo‘sh ish o‘rni"
+      },
+      {
+        "en": "resume",
+        "uz": "rezyume"
+      },
+      {
+        "en": "cover letter",
+        "uz": "motivatsion xat"
+      },
+      {
+        "en": "job interview",
+        "uz": "ish suhbati"
+      },
+      {
+        "en": "salary",
+        "uz": "maosh"
+      },
+      {
+        "en": "shift work",
+        "uz": "smenali ish"
+      },
+      {
+        "en": "overtime",
+        "uz": "ish vaqtidan tashqari ish"
+      },
+      {
+        "en": "internship",
+        "uz": "amaliyot"
+      },
+      {
+        "en": "remote work",
+        "uz": "masofadan ishlash"
+      },
+      {
+        "en": "part-time job",
+        "uz": "yarim stavkali ish"
+      },
+      {
+        "en": "full-time job",
+        "uz": "to‘liq stavkali ish"
+      },
+      {
+        "en": "promotion at work",
+        "uz": "lavozim ko‘tarilishi"
+      },
+      {
+        "en": "probation period",
+        "uz": "sinov muddati"
+      },
+      {
+        "en": "employee",
+        "uz": "xodim"
+      },
+      {
+        "en": "employer",
+        "uz": "ish beruvchi"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I have a job interview on Thursday afternoon.",
+        "uz": "Payshanba kuni tushdan keyin ish suhbatim bor."
+      },
+      {
+        "en": "The vacancy offers remote work and a fixed salary.",
+        "uz": "Bo‘sh ish o‘rni masofaviy ish va qat’iy maoshni taklif qiladi."
+      }
+    ]
+  },
+  {
+    "id": "household-objects",
+    "en": "Home appliances & objects",
+    "uz": "Uy texnikasi va buyumlari",
+    "category": "Home",
+    "words": [
+      {
+        "en": "air conditioner",
+        "uz": "konditsioner"
+      },
+      {
+        "en": "fan appliance",
+        "uz": "ventilyator"
+      },
+      {
+        "en": "heater",
+        "uz": "isitgich"
+      },
+      {
+        "en": "dishwasher",
+        "uz": "idish yuvish mashinasi"
+      },
+      {
+        "en": "electric kettle",
+        "uz": "elektr choynak"
+      },
+      {
+        "en": "blender",
+        "uz": "blender"
+      },
+      {
+        "en": "toaster",
+        "uz": "toster"
+      },
+      {
+        "en": "remote control",
+        "uz": "masofadan boshqarish pulti"
+      },
+      {
+        "en": "light switch",
+        "uz": "chiroq tugmasi"
+      },
+      {
+        "en": "power socket",
+        "uz": "rozetka"
+      },
+      {
+        "en": "extension cable",
+        "uz": "uzaytirgich"
+      },
+      {
+        "en": "lamp shade",
+        "uz": "chiroq qopqog‘i"
+      },
+      {
+        "en": "wall clock",
+        "uz": "devor soati"
+      },
+      {
+        "en": "doorbell",
+        "uz": "eshik qo‘ng‘irog‘i"
+      },
+      {
+        "en": "drawer",
+        "uz": "tortma"
+      },
+      {
+        "en": "wardrobe",
+        "uz": "kiyim shkafi"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Turn off the heater when you leave the room.",
+        "uz": "Xonadan chiqayotganda isitgichni o‘chiring."
+      },
+      {
+        "en": "The remote control is inside the top drawer.",
+        "uz": "Pult yuqoridagi tortmada turibdi."
+      }
+    ]
+  },
+  {
+    "id": "building-city",
+    "en": "Buildings & city services",
+    "uz": "Binolar va shahar xizmatlari",
+    "category": "Travel",
+    "words": [
+      {
+        "en": "police station",
+        "uz": "politsiya bo‘limi"
+      },
+      {
+        "en": "fire station",
+        "uz": "o‘t o‘chirish bo‘limi"
+      },
+      {
+        "en": "city hall",
+        "uz": "shahar hokimligi"
+      },
+      {
+        "en": "courthouse",
+        "uz": "sud binosi"
+      },
+      {
+        "en": "university",
+        "uz": "universitet"
+      },
+      {
+        "en": "college",
+        "uz": "kollej"
+      },
+      {
+        "en": "shopping mall",
+        "uz": "savdo markazi"
+      },
+      {
+        "en": "supermarket",
+        "uz": "supermarket"
+      },
+      {
+        "en": "bakery",
+        "uz": "novvoyxona"
+      },
+      {
+        "en": "barbershop",
+        "uz": "sartaroshxona"
+      },
+      {
+        "en": "hair salon",
+        "uz": "go‘zallik saloni"
+      },
+      {
+        "en": "laundromat",
+        "uz": "kir yuvish joyi"
+      },
+      {
+        "en": "petrol station",
+        "uz": "yoqilg‘i quyish shoxobchasi"
+      },
+      {
+        "en": "parking lot",
+        "uz": "avtoturargoh"
+      },
+      {
+        "en": "playground",
+        "uz": "bolalar maydonchasi"
+      },
+      {
+        "en": "sports centre",
+        "uz": "sport markazi"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The supermarket is opposite the university entrance.",
+        "uz": "Supermarket universitet kirish eshigining qarshisida."
+      },
+      {
+        "en": "There is a new playground behind the shopping mall.",
+        "uz": "Savdo markazi orqasida yangi bolalar maydonchasi bor."
+      }
+    ]
+  }
+]
